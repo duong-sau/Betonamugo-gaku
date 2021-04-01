@@ -1,0 +1,31 @@
+{
+  "additionalUserInfo":
+  {
+    "isNewUser": false,
+    "profile":
+      {
+        "aud": "658296593761-4hsvt336ebr9afptpv5e68a2lv5ki4bl.apps.googleusercontent.com", "azp": "658296593761-bgdq6hbr736m01m72dl9dsshi992aa70.apps.googleusercontent.com", "email": "duongsau1211@gmail.com",
+        "email_verified": true,
+        "exp": 1603600129,
+        "family_name": "Phạm Văn",
+        "given_name": "Dương",
+        "iat": 1603596529,
+        "iss": "https://accounts.google.com",
+        "locale": "vi",
+        "name": "Dương Phạm Văn",
+        "picture": "https://lh4.googleusercontent.com/-IMrGwTRdbvM/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucn-FEJB9w2vPXHg514JjDZvuuXoyQ/s96-c/photo.jpg", "sub": "117098146214351725934"
+      },
+    "providerId": "google.com"},
+  "user":
+    {
+      "displayName": "Dương Phạm Văn",
+      "email": "duongsau1211@gmail.com",
+      "emailVerified": true, "isAnonymous": false,
+      "metadata": "[Object]",
+      "phoneNumber": null,
+      "photoURL": "https://lh4.googleusercontent.com/-IMrGwTRdbvM/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucn-FEJB9w2vPXHg514JjDZvuuXoyQ/s96-c/photo.jpg",
+      "providerData": "[Array]",
+      "providerId": "firebase",
+      "uid": "B90sT09AU7NzqqazTKQhBfcTnig2"
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "accessToken": "EAAKdU4ZBXPbQBABZBz5IZBbszDtmllXrM6IOKSI4vgXMknNGYvA9KchvGatQiOjxl7vUoHI2xyPgImVK7VVelmGkLTm7xp5EQApnsb2yFhQZBVharAsDRRM8852ZACR7DFt1Ftn7e4FhPaGqgHY0Gj7XyYYO0XCZCV0IG02qzCMdvDo6xZBfFUtY0g4HUqO14quugST0WSUwm04I1qykXPwzYIqcdDSaLEyzd4w3gVrgbhDxHBbZCKaC",
+  "accessTokenSource": "CHROME_CUSTOM_TAB",
+  "applicationID": "735932170321332",
+  "dataAccessExpirationTime": 1611375504000,
+  "declinedPermissions": [],
+  "expirationTime": 1608774793749,
+  "expiredPermissions": [],
+  "lastRefreshTime": 1603599503749,
+  "permissions": ["public_profile"],
+  "userID": "188535299505800"
+}

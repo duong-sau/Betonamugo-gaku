@@ -1,0 +1,14 @@
+{
+  "idToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImQwNWVmMjBjNDUxOTFlZmY2NGIyNWQzODBkNDZmZGU1NWFjMjI5ZDEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI2NTgyOTY1OTM3NjEtYmdkcTZoYnI3MzZtMDFtNzJkbDlkc3NoaTk5MmFhNzAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI2NTgyOTY1OTM3NjEtNGhzdnQzMzZlYnI5YWZwdHB2NWU2OGEybHY1a2k0YmwuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTcwOTgxNDYyMTQzNTE3MjU5MzQiLCJlbWFpbCI6ImR1b25nc2F1MTIxMUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6IkTGsMahbmcgUGjhuqFtIFbEg24iLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDQuZ29vZ2xldXNlcmNvbnRlbnQuY29tLy1JTXJHd1RSZGJ2TS9BQUFBQUFBQUFBSS9BQUFBQUFBQUFBQS9BTVp1dWNuLUZFSkI5dzJ2UFhIZzUxNEpqRFp2dXVYb3lRL3M5Ni1jL3Bob3RvLmpwZyIsImdpdmVuX25hbWUiOiJExrDGoW5nIiwiZmFtaWx5X25hbWUiOiJQaOG6oW0gVsSDbiIsImxvY2FsZSI6InZpIiwiaWF0IjoxNjAzNTk2NTI5LCJleHAiOjE2MDM2MDAxMjl9.SO_6EL8DaJJBXcrgDcRQCMhJ2IAJ7ojdqcZHv-al2_itd_FF9IjGxwxWeP4K_CxzQspSU6tlR1Z0YN1jQQUtqqIvJ5vXfsuDru2bLPdMTwZRsdU63Y6cOtPAeoi9r54Lc6lO4wOuwyRavq6uMVewZCqcVSFTFg7Vy0-zrM_Iw09N-aiOL4g_6qyShlP2ZHd_nTcMF4hnrFwL3USIOWanWCokP_JcjiPJrHEC5pHfxFhaVfGTJF8Uv2b3frbG580RTFr3Fw8N93Cx_8A6-blwNMeph3Yr1k5-6kU3imMjq3cRFwW1IqVibDT6PPEpcAXRFoMl_MWCXeqCwyqzPVMw-w",
+  "scopes": ["https://www.googleapis.com/auth/userinfo.profile", "https://www.googleapis.com/auth/userinfo.email"],
+  "serverAuthCode": null,
+  "user":
+  {
+    "email": "duongsau1211@gmail.com",
+    "familyName": "Phạm Văn",
+    "givenName": "Dương",
+    "id": "117098146214351725934",
+    "name": "Dương Phạm Văn",
+    "photo": "https://lh4.googleusercontent.com/-IMrGwTRdbvM/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucn-FEJB9w2vPXHg514JjDZvuuXoyQ/s96-c/photo.jpg"
+  }
+}
