@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { Text, View, StyleSheet, Image, TouchableOpacity } from 'react-native';
-import { LoginButton } from 'react-native-fbsdk';
-import { GoogleSigninButton } from '@react-native-community/google-signin';
+import React, {Component} from 'react';
+import {Text, View, StyleSheet, Image, TouchableOpacity} from 'react-native';
+import {LoginButton} from 'react-native-fbsdk';
+import {GoogleSigninButton} from '@react-native-community/google-signin';
 import '@react-native-firebase/database';
 import Icon from 'react-native-vector-icons/FontAwesome';
 export default class Login extends Component {
@@ -15,13 +15,12 @@ export default class Login extends Component {
     };
   }
   static propTypes = {};
-  componentDidMount() { }
+  componentDidMount() {}
 
   render() {
     return (
-      <View style={{ backgroundColor: 'white', alignItems: 'center', backgroundColor:"rgb(60,179,113)" }}>
+      <View style={global.style.CenterContentStyle}>
         <MrFox />
-       
         <View style={styles.style}>
           <ButtonLogin />
         </View>
@@ -31,42 +30,46 @@ export default class Login extends Component {
 }
 export class ButtonLogin extends Component {
   render() {
-    if (global.isLogin === 1) {
-      return (
-        <View style={{ display: "flex", flexDirection: "row" }}>
-          <TouchableOpacity
-            style={{ backgroundColor: "rgb(60,179,113)", height: 60, width: 130, borderRadius: 5 }}
-            onPress={() => {
-              global.logout();
-            }}>
-            <Text style={{ fontSize: 25, color: "white", fontWeight: "bold", textAlign: "center", marginTop: 13 }}>Đăng xuất</Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={{ backgroundColor: "rgb(60,179,113)", height: 60, width: 130, borderRadius: 5, marginLeft: 10 }}
-            onPress={() => {
-              global.L.props.navigation.replace('Select');
-            }}>
-            <Text style={{ fontSize: 25, color: "white", fontWeight: "bold", textAlign: "center", marginTop: 13 }}>Tiếp tục</Text>
-          </TouchableOpacity>
-        </View>
-      );
-    } else if (global.isLogin === 0) {
+    if (global.isLogin === 0) {
       return (
         <View>
-          <View style={{
-            width: 260, height: 50, backgroundColor: "#4267B2",
-            position: "absolute", marginTop:30, left: 2, borderRadius:30
-          }}>
-            <Icon name="facebook-square" size={30} color="white" style={{
-            marginLeft: 20, marginTop: 8
-            }}></Icon>
-            <Text style={{
-               marginTop: -29, marginLeft: 60, color: "white",
-               fontSize:18
-            }}>Sign in with Facebook</Text>
+          <View
+            style={{
+              width: 260,
+              height: 50,
+              backgroundColor: '#4267B2',
+              position: 'absolute',
+              marginTop: 30,
+              left: 2,
+              borderRadius: 30,
+            }}>
+            <Icon
+              name="facebook-square"
+              size={30}
+              color="white"
+              style={{
+                marginLeft: 20,
+                marginTop: 8,
+              }}
+            />
+            <Text
+              style={{
+                marginTop: -29,
+                marginLeft: 60,
+                color: 'white',
+                fontSize: 18,
+              }}>
+              Sign in with Facebook
+            </Text>
           </View>
           <LoginButton
-            style={{ height: 50, width: 260, marginTop: 25, marginLeft: 2, opacity: 0 }}
+            style={{
+              height: 50,
+              width: 260,
+              marginTop: 25,
+              marginLeft: 2,
+              opacity: 0,
+            }}
             onLoginFinished={(error, result) => {
               global.loginFB(error, result);
             }}
@@ -74,19 +77,40 @@ export class ButtonLogin extends Component {
               global.logout();
             }}
           />
-          <View style={{
-            width: 260, height: 50, backgroundColor: "#DB4437",
-            position: "absolute",  marginTop:90, left: 2, borderRadius: 25
-          }}>
-            <Icon name="google-plus-square" size={32} color="white"
-              style={{ marginLeft: 20, marginTop: 8 }}></Icon>
-            <Text style={{
-              marginTop: -30, marginLeft: 60, color: "white",
-              fontSize:18
-            }}>Sign in with Google</Text>
+          <View
+            style={{
+              width: 260,
+              height: 50,
+              backgroundColor: '#DB4437',
+              position: 'absolute',
+              marginTop: 90,
+              left: 2,
+              borderRadius: 25,
+            }}>
+            <Icon
+              name="google-plus-square"
+              size={32}
+              color="white"
+              style={{marginLeft: 20, marginTop: 8}}
+            />
+            <Text
+              style={{
+                marginTop: -30,
+                marginLeft: 60,
+                color: 'white',
+                fontSize: 18,
+              }}>
+              Sign in with Google
+            </Text>
           </View>
           <GoogleSigninButton
-            style={{ height: 50, width: 260, marginTop: 15, marginLeft: 2, opacity: 0 }}
+            style={{
+              height: 50,
+              width: 260,
+              marginTop: 15,
+              marginLeft: 2,
+              opacity: 0,
+            }}
             size={GoogleSigninButton.Size.Wide}
             color={GoogleSigninButton.Color.Dark}
             onPress={() => {
@@ -95,45 +119,24 @@ export class ButtonLogin extends Component {
           />
         </View>
       );
-    } else if (global.isLogin === 2) {
-      return (
-        <View style={{ display: "flex", flexDirection: "row" }}>
-          <TouchableOpacity
-            style={{ backgroundColor: "rgb(60,179,113)", height: 60, width: 130, borderRadius: 5 }}
-            onPress={() => {
-              global.logout();
-            }}>
-            <Text style={{ fontSize: 25, color: "white", fontWeight: "bold", textAlign: "center", marginTop: 13 }}>Đăng xuất</Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={{ backgroundColor: "rgb(60,179,113)", height: 60, width: 130, borderRadius: 5, marginLeft: 10 }}
-            onPress={() => {
-              global.L.props.navigation.replace('Select');
-            }}>
-            <Text style={{ fontSize: 25, color: "white", fontWeight: "bold", textAlign: "center", marginTop: 13 }}>Tiếp tục</Text>
-          </TouchableOpacity>
-        </View>
-      );
     } else {
       return (
-        <View style={{ display: "flex", flexDirection: "row" }}>
+        <View style={{display: 'flex', flexDirection: 'row'}}>
           <TouchableOpacity
-            style={{ backgroundColor: "rgb(60,179,113)", height: 60, width: 130, borderRadius: 5 }}
+            style={global.style.ButtonBackgroundStyle}
             onPress={() => {
               global.logout();
             }}>
-            <Text style={{ fontSize: 25, color: "white", fontWeight: "bold", textAlign: "center", marginTop: 13 }}>Đăng xuất</Text>
+            <Text style={global.style.ButtonStyle}>Đăng xuất</Text>
           </TouchableOpacity>
           <TouchableOpacity
-            style={{ backgroundColor: "rgb(60,179,113)", height: 60, width: 130, borderRadius: 5, marginLeft: 20 }}
+            style={global.style.ButtonBackgroundStyle}
             onPress={() => {
-              global.logout();
+              global.L.props.navigation.replace('SideMenu', {command: 0});
             }}>
-            <Text style={{ fontSize: 25, color: "white", fontWeight: "bold", textAlign: "center", marginTop: 13 }}>Tiếp tục</Text>
+            <Text style={global.style.ButtonStyle}>Tiếp tục</Text>
           </TouchableOpacity>
         </View>
-
-
       );
     }
   }
@@ -143,15 +146,21 @@ export class MrFox extends Component {
     if (global.isLogin === 0) {
       return (
         <View>
-          <Image style={{ width: 200, height: 200, marginTop: 100, borderRadius:200 }} source={require('../src/mrfox1.png')} />
-          <Text style={styles.titleApp}>FoxEnglish</Text>
+          <Image
+            style={{width: 200, height: 200, marginTop: 100, borderRadius: 200}}
+            source={require('../src/logo512.png')}
+          />
+          <Text style={styles.titleApp}>SVietnam</Text>
         </View>
       );
     } else {
       return (
-        <View style={{ alignItems: 'center' }}>
-          <Image style={{ width: 150, height: 150, marginTop: 30, opacity:0 }} source={require('../src/mrfox1.png')} />
-          <Image style={styles.image} source={{ uri: global.userPicture }} />
+        <View style={{alignItems: 'center'}}>
+          <Image
+            style={{width: 150, height: 150, marginTop: 30, opacity: 0}}
+            source={require('../src/mrfox1.png')}
+          />
+          <Image style={styles.image} source={{uri: global.userPicture}} />
           <Text style={styles.textTitle}>Xin Chào {global.userName}</Text>
         </View>
       );
@@ -165,7 +174,7 @@ const styles = StyleSheet.create({
     color: 'black',
     textAlign: 'center',
     marginTop: 20,
-    fontFamily: "Verdana"
+    fontFamily: 'Verdana',
   },
   wordApp: {
     marginTop: 10,
@@ -191,7 +200,7 @@ const styles = StyleSheet.create({
     marginLeft: 0,
     width: 250,
     height: 250,
-    borderRadius:250
+    borderRadius: 250,
   },
   style: {
     width: '100%',

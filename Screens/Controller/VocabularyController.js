@@ -12,6 +12,7 @@ export default class VocabularyController extends Component {
   constructor(props) {
     super(props);
     V = this;
+      global.navigation = this.props.navigation;
   }
 
   render() {
@@ -46,12 +47,14 @@ export default class VocabularyController extends Component {
         <Stack.Screen
           options={{
             headerTitle: () => (
-              <Text style={{color: 'white', fontSize: 24, marginLeft:-15}}>VOCABULARY</Text>
+              <Text style={{color: 'white', fontSize: 24, marginLeft: -15}}>
+                VOCABULARY
+              </Text>
             ),
             headerLeft: () => (
               <TouchableOpacity
                 onPress={() =>
-                  global.L.props.navigation.replace('SideMenu', { command: 1 })
+                  global.L.props.navigation.replace('SideMenu', {command: 1})
                 }>
                 <Icon
                   name="chevron-left"

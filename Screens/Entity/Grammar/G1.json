@@ -1,0 +1,61 @@
+{"K1":{
+  "type": 1,
+  "content":"Cấu trúc chung của một câu "
+},
+"K2":{
+  "type": 2,
+  "content": "   1.Chủ ngữ"
+  },
+  "k3":{
+  "type": 3,
+  "content": " Trong tiếng Việt cũng như trong tiếng Anh, chủ ngữ là người hay vật thực hiện hành động trong câu."
+  },
+  "k4":{
+  "type": 4,
+  "content": "    Ví dụ:"
+  },
+  "k5":{
+    "type": 5,
+    "content":"         She went to school yesterday"
+  },
+  "k6":{
+    "type": 6,
+    "content":"  Hôm qua cô ấy đi học.(She là chủ ngữ)"
+  },
+  "k7":{
+    "type": 7,
+    "content":"   2.Vị ngữ"
+  },
+  "k8":{
+    "type": 8,
+    "content":" Trong tiếng Việt cũng như trong tiếng Anh, chủ ngữ là người hay vật thực hiện hành động trong câu."
+  },
+  "k9":{
+    "type": 9,
+    "content":"Ví dụ: I like watching movie (like là vị ngữ) "
+  },
+  "k10":{
+    "type": 10,
+    "content":"   3.Thông tin nền"
+  },
+  "k11":{
+    "type": 11,
+    "content":"Một câu chỉ cần có chủ ngữ (người hoặc vật thực hiện hành động) và vị ngữ (hành động) là đã hoàn chỉnh về mặt ý nghĩa và ngữ pháp rồi. Tuy nhiên, để cho câu nói sống động hơn và cụ thể hơn, người nói cũng có thể thêm các thông tin phụ nữa, được gọi là các thông tin nền."
+  },
+  "k12":{
+    "type": 12,
+    "content":"She is eating the fruit."
+  },
+  "k13":{
+    "type": 13,
+    "content":"   The fruit là thông tin nền " 
+  },
+  "k14":{
+    "type": 14,
+    "content":"She is eating the fruit in the kitchen. "
+  },
+  "k15":{
+    "type": 15,
+    "content":"The fruit và in the kitchen là thông tin nền" 
+  },
+}

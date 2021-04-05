@@ -1,0 +1,17 @@
+{"K1":{
+  "type": 1,
+  "content":"Câu điều kiện"
+},
+"K2":{
+"type": 2,
+"content": "'Milk is delicious. (một danh từ)  That new, red car is mine. (một ngữ danh từ)'"
+},
+"k3":{
+"type": 3,
+"content": "Đôi khi câu không có chủ ngữ thật sự, trong trường hợp đó, It hoặc There đóng vai trò chủ ngữ giả."
+},
+"k4":{
+"type": 4,
+"content": "'It is a nice day today.  There is a fire in that building.   It is the fact that the earth goes around the sun."
+}
+}

@@ -9,11 +9,9 @@ import {AccessToken} from 'react-native-fbsdk';
 import './UserController';
 import './AuthController';
 import {GoogleSignin} from '@react-native-community/google-signin';
-import Select from '../../Template/Select';
 const Stack = createStackNavigator();
 global.isLogin = 0;
-global.grammarAchievements = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0,0, 0, 0, 0, 0];
-global.vocabularyAchievements = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+global.grammarAchievements = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 global.userName = '';
 global.userID = '';
 global.userPicture = '';
@@ -84,11 +82,6 @@ export default class LoginController extends Component {
             options={{headerShown: false}}
             name={'SideMenu'}
             component={SideMenu}
-          />
-          <Stack.Screen
-            name={'Select'}
-            component={Select}
-            options={{headerShown: false}}
           />
         </Stack.Navigator>
       </NavigationContainer>

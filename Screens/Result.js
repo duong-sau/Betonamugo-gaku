@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
-import {Text, View, StyleSheet, TouchableOpacity, Image} from 'react-native';
+import {Text, View, StyleSheet, TouchableOpacity} from 'react-native';
 
 import Icon from 'react-native-vector-icons/FontAwesome';
-const correct = 'Số câu bạn đã làm đúng               ';
-const unCorrect = 'Số câu bạn đã làm sai                   ';
-const unfinished = 'Số câu bạn chưa làm                    ';
+import Header from '../Template/Header';
+const correct = '正解の総数                                   ';
+const unCorrect = '誤検知の総数                               ';
+const unfinished = '未払いの文の総数                      ';
 let R;
 export default class Result extends Component {
   constructor(props) {
@@ -15,19 +16,11 @@ export default class Result extends Component {
   render() {
     return (
       <View style={styles.style}>
-        <View style={styles.titleFrame}>
-          <View style={styles.icons} />
-          <Icon
-            name="chevron-left"
-            color="white"
-            size={20}
-            onPress={() => {
-              this.props.navigation.replace('Grammar');
-            }}
-            style={{marginRight: 15}}
-          />
-          <Text style={styles.titleText}>{this.props.route.params.title}</Text>
-        </View>
+        <Header
+          navigation={this.props.navigation}
+          title={this.props.route.params.title}
+          type={'bars'}
+        />
         <View>
           <Text style={styles.result}>
             {correct} {this.props.route.params.correct}
@@ -40,23 +33,25 @@ export default class Result extends Component {
           </Text>
         </View>
         <View style={styles.footer}>
-          <View style={styles.fbbut1}>
+          <View style={global.style.ButtonStyle}>
             <TouchableOpacity
+              style={global.style.ButtonBackgroundStyle}
               onPress={() => {
-                this.props.navigation.navigate('Practice',{
+                this.props.navigation.navigate('Practice', {
                   title: this.props.route.params.title,
-                  key: this.props.route.params.key
+                  key: this.props.route.params.key,
                 });
               }}>
-              <Text style={styles.buttitle}>TRỞ LẠI</Text>
+              <Text style={global.style.ButtonStyle}>戻る</Text>
             </TouchableOpacity>
           </View>
           <View style={styles.fbbut2}>
             <TouchableOpacity
+              style={global.style.ButtonBackgroundStyle}
               onPress={() => {
                 this.props.navigation.navigate('Grammar');
               }}>
-              <Text style={styles.buttitle}>TIẾP THEO</Text>
+              <Text style={global.style.ButtonStyle}>続く</Text>
             </TouchableOpacity>
           </View>
         </View>
@@ -75,54 +70,14 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     width: 330,
   },
-  icons: {
-    marginLeft: 15,
-  },
+
   footer: {
+    marginRight: 25,
+    marginLeft: 25,
     flexDirection: 'row',
     height: 50,
     justifyContent: 'space-between',
     alignItems: 'flex-end',
     marginTop: 50,
-  },
-  titleFrame: {
-    width: '100%',
-    height: '15%',
-    backgroundColor: 'rgb(60,179,113)',
-    display: 'flex',
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'flex-start',
-    marginBottom: 50,
-  },
-  titleText: {
-    color: 'white',
-    fontSize: 25,
-    marginLeft: 10,
-  },
-  icon_bottom_left: {
-    marginBottom: 150,
-    marginLeft: 50,
-  },
-  buttitle: {
-    fontSize: 24,
-    color: '#FFFFFF',
-    marginTop: 10,
-  },
-  fbbut1: {
-    alignItems: 'center',
-    width: '35%',
-    height: '100%',
-    borderRadius: 7,
-    backgroundColor: 'rgb(60,179,113)',
-    marginLeft: 37,
-  },
-  fbbut2: {
-    alignItems: 'center',
-    width: '35%',
-    height: '100%',
-    borderRadius: 7,
-    backgroundColor: 'rgb(60,179,113)',
-    marginRight: 40,
   },
 });
