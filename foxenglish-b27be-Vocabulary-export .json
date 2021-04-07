@@ -1,0 +1,582 @@
+{
+  "G1" : {
+    "VocabularyList" : [ {
+      "explain" : "Cô ấy lướt qua mặt biển để tìm Stephen.",
+      "jp" : " わたつみ [綿津見] ",
+      "mean" : "Biển",
+      "read" : "She scanned the sea of ​​faces to find Stephen.",
+      "word" : "Sea"
+    }, {
+      "explain" : "biển Atlantic",
+      "jp" : " えんよう [遠洋] ",
+      "mean" : "Đại dương",
+      "read" : "the Atlantic Ocean",
+      "word" : "Ocean"
+    }, {
+      "explain" : "Phần lớn châu Âu được bao phủ bởi rừng",
+      "jp" : " じゅりん [樹林] ",
+      "mean" : "Rừng",
+      "read" : "Much of Europe was covered with forest",
+      "word" : "Forest"
+    }, {
+      "explain" : "Một hòn đảo yên tĩnh trên biển",
+      "jp" : " しま [島] ",
+      "mean" : "Đảo",
+      "read" : "An island of calm on the sea",
+      "word" : "Island"
+    }, {
+      "explain" : "Ngôi làng được bao quanh bởi những ngọn núi",
+      "jp" : " マウンテン ",
+      "mean" : "Ngọn núi",
+      "read" : "The village is surrounded by mountains",
+      "word" : "Mountain"
+    }, {
+      "explain" : "Cao nguyên Madagascar",
+      "jp" : " ハイランド ",
+      "mean" : "Cao nguyên",
+      "read" : "The highlands of Madagascar",
+      "word" : "Highland"
+    }, {
+      "explain" : "Chuyến đi bị trì hoãn do địa hình gồ ghề",
+      "jp" : " ちけい [地形] ",
+      "mean" : "Địa hình",
+      "read" : "The trip was delayed by the rough terrain",
+      "word" : "Terrain"
+    }, {
+      "explain" : "Phát triển kinh tế bị hạn chế bởi khí hậu",
+      "jp" : " きしょう [気象] ",
+      "mean" : "Khí hậu",
+      "read" : "Economic development is constrained by climate",
+      "word" : "Climate"
+    }, {
+      "explain" : "Nếu thời tiết tốt chúng ta có thể đi dạo",
+      "jp" : " てんしょく [天色] ",
+      "mean" : "Thời tiết",
+      "read" : "If the weather's good we can go for a walk",
+      "word" : "Weather"
+    }, {
+      "explain" : "Trong rừng có một thác nước rất lớn",
+      "jp" : "滝",
+      "mean" : "Thác nước",
+      "read" : "In the forest there is a very large waterfall",
+      "word" : "Waterfall"
+    } ]
+  },
+
+  "G2" : {
+    
+    "VocabularyList" : {
+      "0" : {
+        "explain" : "Bắt tay là một cách tốt để giao tiếp",
+        "jp" : " シェークハンド ",
+        "mean" : "Bắt tay",
+        "read" : "Shaking hands is a good way to communicate",
+        "word" : "Shake hands"
+      },
+      "1" : {
+        "explain" : "Xin chào, lâu rồi không gặp",
+        "jp" : "久しぶり",
+        "mean" : "Lâu rồi không gặp",
+        "read" : "Hello, long time no see",
+        "word" : "Long time no see"
+      },
+      "2" : {
+        "explain" : "Hôm nay dừng ở đây. Hẹn gặp lại",
+        "jp" : "13 / 5000\nKết quả dịch\nじゃあまたね ",
+        "mean" : "Hẹn gặp lại sau",
+        "read" : "Today stop here. See you later",
+        "word" : "See you later"
+      },
+      "3" : {
+        "explain" : "Chúng tôi chào nhau bằng những cái ôm ",
+        "jp" : " ほうよう [抱擁] ",
+        "mean" : "Ôm",
+        "read" : "We greet each other with hugs",
+        "word" : "Hug"
+      },
+      "4" : {
+        "explain" : "Trước khi đi ngủ, người ta hay nói chúc ngủ ngon",
+        "jp" : " おやすみなさい [御休みなさい] ",
+        "mean" : "Chúc ngủ ngon",
+        "read" : "Before going to bed, people say good night",
+        "word" : "Good night"
+      },
+      "5" : {
+        "explain" : "Tạm biệt. Hẹn gặp lại",
+        "jp" : " オールボアール ",
+        "mean" : "Tạm biệt",
+        "read" : "Good bye. See you again",
+        "word" : "Good bye"
+      },
+      "6" : {
+        "explain" : "Rất vui được gặp bạn",
+        "jp" : "始めまして",
+        "mean" : "Rất vui được gặp bạn",
+        "read" : "Nice to meet you",
+        "word" : "Nice to meet you"
+      },
+      "7" : {
+        "explain" : "Hôn là một cách chào hỏi phổ biến ở Châu Âu",
+        "jp" : " くちづけ [口付け] ",
+        "mean" : "Hôn",
+        "read" : "Kissing is a common greeting in Europe",
+        "word" : "Kiss"
+      },
+      "8" : {
+        "explain" : "Chào hỏi là cách tốt nhất để làm quen",
+        "jp" : " えしゃく [会釈] ",
+        "mean" : "Lời chào",
+        "read" : "Greetings is the best way to get acquainted",
+        "word" : "Greeting"
+      }
+    }
+  },
+  "G3" : {
+   
+    "VocabularyList" : [ {
+      "explain" : "Cô ấy đã sáng tác lời cho nhiều bài hát.",
+      "jp" : "<div>探している単語は soha.com にありません</div>",
+      "mean" : "Lời bài hát",
+      "read" : "She composed lyrics for a many songs.",
+      "word" : "Lyrics"
+    }, {
+      "explain" : "Giai điệu này nghe bắt tai quá",
+      "jp" : "<div>探している単語は soha.com にありません</div>",
+      "mean" : "Giai điệu",
+      "read" : "This melody sounds so catchy",
+      "word" : "Melody"
+    }, {
+      "explain" : "Có nhiều nhạc cụ khác nhau",
+      "jp" : " がっき [楽器] ",
+      "mean" : "Nhạc cụ",
+      "read" : "There are many different instruments",
+      "word" : "Musical instrument"
+    }, {
+      "explain" : "Bản giao hưởng thứ năm của Beethoven",
+      "jp" : " こうきょうきょく [交響曲] ",
+      "mean" : "Nhạc giao hưởng",
+      "read" : "Beethoven's Fifth Symphony",
+      "word" : "Symphony"
+    }, {
+      "explain" : "Đeo tai nghe quá nhiều là không tốt",
+      "jp" : "<div>探している単語は soha.com にありません</div>",
+      "mean" : "Tai nghe",
+      "read" : "Wearing headphones too much is not good",
+      "word" : "Headphones"
+    }, {
+      "explain" : "Anh ấy thích nghe nhạc cổ điển",
+      "jp" : "<div>探している単語は soha.com にありません</div>",
+      "mean" : "Nhạc cố điển",
+      "read" : "He loves listening to classical music",
+      "word" : "Classical"
+    }, {
+      "explain" : "Ban nhạc The Beatle đã tan rã từ lâu",
+      "jp" : "<div>探している単語は soha.com にありません</div>",
+      "mean" : "Ban nhạc",
+      "read" : "Band The Beattle has been disbanded ",
+      "word" : "Band"
+    }, {
+      "explain" : "Phát triển kinh tế bị hạn chế bởi khí hậu",
+      "jp" : " きしょう [気象] ",
+      "mean" : "Khí hậu",
+      "read" : "Economic development is constrained by climate",
+      "word" : "Climate"
+    }, {
+      "explain" : "Nếu thời tiết tốt chúng ta có thể đi dạo",
+      "jp" : " てんしょく [天色] ",
+      "mean" : "Thời tiết",
+      "read" : "If the weather's good we can go for a walk",
+      "word" : "Weather"
+    }, {
+      "explain" : "Trong rừng có một thác nước rất lớn",
+      "jp" : "<div>探している単語は soha.com にありません</div>",
+      "mean" : "Thác nước",
+      "read" : "In the forest there is a very large waterfall",
+      "word" : "Waterfall"
+    } ]
+  },
+  "G4" : {
+    
+    "VocabularyList" : [ {
+      "explain" : "Cô ấy đã sáng tác lời cho nhiều bài hát.",
+      "jp" : "<div>探している単語は soha.com にありません</div>",
+      "mean" : "Lời bài hát",
+      "read" : "She composed lyrics for a many songs.",
+      "word" : "Lyrics"
+    }, {
+      "explain" : "Giai điệu này nghe bắt tai quá",
+      "jp" : "<div>探している単語は soha.com にありません</div>",
+      "mean" : "Giai điệu",
+      "read" : "This melody sounds so catchy",
+      "word" : "Melody"
+    }, {
+      "explain" : "Có nhiều nhạc cụ khác nhau",
+      "jp" : " がっき [楽器] ",
+      "mean" : "Nhạc cụ",
+      "read" : "There are many different instruments",
+      "word" : "Musical instrument"
+    }, {
+      "explain" : "Bản giao hưởng thứ năm của Beethoven",
+      "jp" : " こうきょうきょく [交響曲] ",
+      "mean" : "Nhạc giao hưởng",
+      "read" : "Beethoven's Fifth Symphony",
+      "word" : "Symphony"
+    }, {
+      "explain" : "Đeo tai nghe quá nhiều là không tốt",
+      "jp" : "<div>探している単語は soha.com にありません</div>",
+      "mean" : "Tai nghe",
+      "read" : "Wearing headphones too much is not good",
+      "word" : "Headphones"
+    }, {
+      "explain" : "Anh ấy thích nghe nhạc cổ điển",
+      "jp" : "<div>探している単語は soha.com にありません</div>",
+      "mean" : "Nhạc cố điển",
+      "read" : "He loves listening to classical music",
+      "word" : "Classical"
+    }, {
+      "explain" : "Ban nhạc The Beatle đã tan rã từ lâu",
+      "jp" : "<div>探している単語は soha.com にありません</div>",
+      "mean" : "Ban nhạc",
+      "read" : "Band The Beattle has been disbanded ",
+      "word" : "Band"
+    }, {
+      "explain" : "Phát triển kinh tế bị hạn chế bởi khí hậu",
+      "jp" : " きしょう [気象] ",
+      "mean" : "Khí hậu",
+      "read" : "Economic development is constrained by climate",
+      "word" : "Climate"
+    }, {
+      "explain" : "Nếu thời tiết tốt chúng ta có thể đi dạo",
+      "jp" : " てんしょく [天色] ",
+      "mean" : "Thời tiết",
+      "read" : "If the weather's good we can go for a walk",
+      "word" : "Weather"
+    }, {
+      "explain" : "Trong rừng có một thác nước rất lớn",
+      "jp" : "<div>探している単語は soha.com にありません</div>",
+      "mean" : "Thác nước",
+      "read" : "In the forest there is a very large waterfall",
+      "word" : "Waterfall"
+    } ]
+  },
+  "G5" : {
+   
+    "VocabularyList" : [ {
+      "explain" : "Tôi có một nhóm bạn rất thân thiết",
+      "jp" : " フレンズ ",
+      "mean" : "Bạn",
+      "read" : "I have a very close group of friends",
+      "word" : "Friends"
+    }, {
+      "explain" : "Anh ấy là một người đồng chí tốt",
+      "jp" : " なかまどうし [仲間同士] ",
+      "mean" : "Đồng chí",
+      "read" : "He's a good comrade",
+      "word" : "Comrades"
+    }, {
+      "explain" : "Tôi từng có những người đồng đội tốt ở bên",
+      "jp" : "9 / 5000\nKết quả dịch\nチームメイト ",
+      "mean" : "Đồng đội",
+      "read" : "I used to have good teammates by my side",
+      "word" : "Teammates"
+    }, {
+      "explain" : "Cô ấy là đồng nghiệp của tôi",
+      "jp" : " しゃゆう [社友] ",
+      "mean" : "Đồng nghiệp",
+      "read" : "She is my colleague",
+      "word" : "Colleague"
+    }, {
+      "explain" : "Sau ngày hôm đó, tôi đã kết bạn mới",
+      "jp" : "新しい友達",
+      "mean" : "Bạn mới",
+      "read" : "After that day, I made new friends",
+      "word" : "New friends"
+    }, {
+      "explain" : "tuần trước, tôi có gặp một người quen ở Hà Nội ",
+      "jp" : " じょくち [辱知] ",
+      "mean" : "Người quen",
+      "read" : "Last week, I met an acquaintance in Hanoi",
+      "word" : "Acquaintance"
+    }, {
+      "explain" : "Đối tác của công ty chúng tôi đến từ Hồ Chí Minh",
+      "jp" : " パートナー ",
+      "mean" : "Đối tác",
+      "read" : "Our company's partner is from Ho Chi Minh",
+      "word" : "Partner"
+    }, {
+      "explain" : "Trong lớp, Huy là bạn thân của Long",
+      "jp" : " ベストフレンド ",
+      "mean" : "Bạn thân",
+      "read" : "In class, Huy is Long's best friend",
+      "word" : "Best friend"
+    }, {
+      "explain" : "Hai năm trước, họ từng là vợ chồng",
+      "jp" : "夫",
+      "mean" : "Vợ chồng",
+      "read" : "Two years ago, they used to be husband and wife",
+      "word" : "Husband"
+    }, {
+      "explain" : "Rất khó để chúng ta tìm được một người tri kỷ",
+      "jp" : "ソウルメイト",
+      "mean" : "Tri kỉ",
+      "read" : "It is very difficult for us to find a soulmate",
+      "word" : "Soulmate"
+    } ]
+  },
+  "G6" : {
+    
+    "VocabularyList" : [ {
+      "explain" : "Hôm nay tôi ăn rất nhiều bánh ngọt",
+      "jp" : " てんしん [点心] ",
+      "mean" : "Bánh ngọt",
+      "read" : "Today I eat a lot of cakes",
+      "word" : "Cakes"
+    }, {
+      "explain" : "Sáng nay tôi đã ăn bánh mì",
+      "jp" : " ブレッド ",
+      "mean" : "Bánh mì",
+      "read" : "This morning I ate bread",
+      "word" : "Bread"
+    }, {
+      "explain" : "Đằng kí có một quán xôi rất ngon.",
+      "jp" : "餅米",
+      "mean" : "xôi",
+      "read" : "There is a very good sticky rice shop next there",
+      "word" : "Sticky rice"
+    }, {
+      "explain" : "Mì là món ăn truyền thống của Trung Quốc",
+      "jp" : " めん [麺] ",
+      "mean" : "Mì",
+      "read" : "Noodles are traditional Chinese dishes",
+      "word" : "Noodles"
+    }, {
+      "explain" : "Bánh bao là món ăn yêu thích của tôi",
+      "jp" : "ご飯",
+      "mean" : "Bánh bao",
+      "read" : "Dumplings are my favorite food",
+      "word" : "Dumplings"
+    }, {
+      "explain" : "Gạo là nguyên liệu làm rượu",
+      "jp" : "<div>探している単語は soha.com にありません</div>",
+      "mean" : "Gạo",
+      "read" : "Rice is the raw material for wine",
+      "word" : "Rice"
+    }, {
+      "explain" : "Bánh mì thịt trên đường phố Hà Nội rất ngon",
+      "jp" : "サンドイッチ",
+      "mean" : "Bánh mì thịt",
+      "read" : "The sandwiches on the streets of Hanoi are good",
+      "word" : "The sandwiches"
+    }, {
+      "explain" : "Chúng ta làm một chiếc bánh sinh nhật cho cô ấy",
+      "jp" : "鍋",
+      "mean" : "Bánh sinh nhật",
+      "read" : "We'll make a birthday cake for her",
+      "word" : "Birthday cake"
+    }, {
+      "explain" : "Hôm nay nhóm mình đi ăn lẩu",
+      "jp" : "<div>探している単語は soha.com にありません</div>",
+      "mean" : "Lẩu",
+      "read" : "Our group is going to have hot pot today",
+      "word" : "Hot pot"
+    }, {
+      "explain" : "Chúng ta nên ăn rau mỗi ngày",
+      "jp" : " そさい [蔬菜] ",
+      "mean" : "Rau",
+      "read" : "We should eat vegetables every day",
+      "word" : "Vegetables"
+    } ]
+  },
+  "G7" : {
+   
+    "VocabularyList" : [ {
+      "explain" : "Tôi tập thể dục mỗi ngày để có sức khỏe tốt",
+      "jp" : " うんどう [運動] ",
+      "mean" : "Thể dục",
+      "read" : "I exercise every day for good health",
+      "word" : "Exercise"
+    }, {
+      "explain" : "Sở thích của tôi là bóng đá",
+      "jp" : " サッカー ",
+      "mean" : "Bóng đá",
+      "read" : "My hobby is soccer",
+      "word" : "Soccer"
+    }, {
+      "explain" : "Tôi chơi quần vợt vào thứ Tư hàng tuần",
+      "jp" : "テニス",
+      "mean" : "Quần vợt",
+      "read" : "I play tennis every Wednesday",
+      "word" : "Tennis"
+    }, {
+      "explain" : "Bóng đá là môn thể thao phổ biến nhất ở Việt Nam",
+      "jp" : "スポーツ",
+      "mean" : "Thể thao",
+      "read" : "Football is the most popular sport in Vietnam",
+      "word" : "Sport"
+    }, {
+      "explain" : "CLB Hà Nội vô địch giải bóng chuyền năm nay",
+      "jp" : "バレーボール",
+      "mean" : "Bóng chuyền",
+      "read" : "Club HaNoi won the volleyball tournament",
+      "word" : "Volleyball"
+    }, {
+      "explain" : "Buffalo Bills là một đội bóng chày ở nước Mỹ",
+      "jp" : "野球",
+      "mean" : "Bóng chày",
+      "read" : "Buffalo Bills is a baseball team in America",
+      "word" : "Baseball"
+    }, {
+      "explain" : "Lindan là một vận động viên cầu lông xuất sắc",
+      "jp" : "バドミントン",
+      "mean" : "Cầu lông",
+      "read" : "Lindan is a excellent badminton player ",
+      "word" : "Badminton"
+    }, {
+      "explain" : "Bóng rổ là môn thể thao yêu thích của tôi",
+      "jp" : " ろうきゅう [籠球] ",
+      "mean" : "Bóng rổ",
+      "read" : "Basketball gradually becomes  my favorite sport",
+      "word" : "Basketball"
+    }, {
+      "explain" : "Tôi đang chạy trong công viên Hòa Bình",
+      "jp" : "ランニング",
+      "mean" : "Chạy bộ",
+      "read" : "I'm running in Hoa Binh park",
+      "word" : "Running"
+    }, {
+      "explain" : "Thực ra, tôi chơi đá bóng tệ",
+      "jp" : " フットボール ",
+      "mean" : "Đá bóng",
+      "read" : "Actually, I play football badly",
+      "word" : "Football"
+    } ]
+  },
+  "G8" : {
+   
+    "VocabularyList" : [ {
+      "explain" : "Cô ấy đã sáng tác lời cho nhiều bài hát.",
+      "jp" : "<div>探している単語は soha.com にありません</div>",
+      "mean" : "Lời bài hát",
+      "read" : "She composed lyrics for a many songs.",
+      "word" : "Lyrics"
+    }, {
+      "explain" : "Giai điệu này nghe bắt tai quá",
+      "jp" : "<div>探している単語は soha.com にありません</div>",
+      "mean" : "Giai điệu",
+      "read" : "This melody sounds so catchy",
+      "word" : "Melody"
+    }, {
+      "explain" : "Có nhiều nhạc cụ khác nhau",
+      "jp" : " がっき [楽器] ",
+      "mean" : "Nhạc cụ",
+      "read" : "There are many different instruments",
+      "word" : "Musical instrument"
+    }, {
+      "explain" : "Bản giao hưởng thứ năm của Beethoven",
+      "jp" : " こうきょうきょく [交響曲] ",
+      "mean" : "Nhạc giao hưởng",
+      "read" : "Beethoven's Fifth Symphony",
+      "word" : "Symphony"
+    }, {
+      "explain" : "Đeo tai nghe quá nhiều là không tốt",
+      "jp" : "<div>探している単語は soha.com にありません</div>",
+      "mean" : "Tai nghe",
+      "read" : "Wearing headphones too much is not good",
+      "word" : "Headphones"
+    }, {
+      "explain" : "Anh ấy thích nghe nhạc cổ điển",
+      "jp" : "<div>探している単語は soha.com にありません</div>",
+      "mean" : "Nhạc cố điển",
+      "read" : "He loves listening to classical music",
+      "word" : "Classical"
+    }, {
+      "explain" : "Ban nhạc The Beatle đã tan rã từ lâu",
+      "jp" : "<div>探している単語は soha.com にありません</div>",
+      "mean" : "Ban nhạc",
+      "read" : "Band The Beattle has been disbanded ",
+      "word" : "Band"
+    }, {
+      "explain" : "Phát triển kinh tế bị hạn chế bởi khí hậu",
+      "jp" : " きしょう [気象] ",
+      "mean" : "Khí hậu",
+      "read" : "Economic development is constrained by climate",
+      "word" : "Climate"
+    }, {
+      "explain" : "Nếu thời tiết tốt chúng ta có thể đi dạo",
+      "jp" : " てんしょく [天色] ",
+      "mean" : "Thời tiết",
+      "read" : "If the weather's good we can go for a walk",
+      "word" : "Weather"
+    }, {
+      "explain" : "Trong rừng có một thác nước rất lớn",
+      "jp" : "<div>探している単語は soha.com にありません</div>",
+      "mean" : "Thác nước",
+      "read" : "In the forest there is a very large waterfall",
+      "word" : "Waterfall"
+    } ]
+  },
+  "G9" : {
+  
+    "VocabularyList" : [ {
+      "explain" : "Cô ấy đã sáng tác lời cho nhiều bài hát.",
+      "jp" : "歌詞",
+      "mean" : "Lời bài hát",
+      "read" : "She composed lyrics for a many songs.",
+      "word" : "Lyrics"
+    }, {
+      "explain" : "Giai điệu này nghe bắt tai quá",
+      "jp" : "メロディー",
+      "mean" : "Giai điệu",
+      "read" : "This melody sounds so catchy",
+      "word" : "Melody"
+    }, {
+      "explain" : "Có nhiều nhạc cụ khác nhau",
+      "jp" : " がっき [楽器] ",
+      "mean" : "Nhạc cụ",
+      "read" : "There are many different instruments",
+      "word" : "Musical instrument"
+    }, {
+      "explain" : "Bản giao hưởng thứ năm của Beethoven",
+      "jp" : " こうきょうきょく [交響曲] ",
+      "mean" : "Nhạc giao hưởng",
+      "read" : "Beethoven's Fifth Symphony",
+      "word" : "Symphony"
+    }, {
+      "explain" : "Đeo tai nghe quá nhiều là không tốt",
+      "jp" : "ヘッドホン",
+      "mean" : "Tai nghe",
+      "read" : "Wearing headphones too much is not good",
+      "word" : "Headphones"
+    }, {
+      "explain" : "Anh ấy thích nghe nhạc cổ điển",
+      "jp" : "クラシック",
+      "mean" : "Nhạc cố điển",
+      "read" : "He loves listening to classical music",
+      "word" : "Classical"
+    }, {
+      "explain" : "Ban nhạc The Beatle đã tan rã từ lâu",
+      "jp" : "バンド",
+      "mean" : "Ban nhạc",
+      "read" : "Band The Beattle has been disbanded ",
+      "word" : "Band"
+    }, {
+      "explain" : "Phát triển kinh tế bị hạn chế bởi khí hậu",
+      "jp" : " きしょう [気象] ",
+      "mean" : "Khí hậu",
+      "read" : "Economic development is constrained by climate",
+      "word" : "Climate"
+    }, {
+      "explain" : "Nếu thời tiết tốt chúng ta có thể đi dạo",
+      "jp" : " てんしょく [天色] ",
+      "mean" : "Thời tiết",
+      "read" : "If the weather's good we can go for a walk",
+      "word" : "Weather"
+    }, {
+      "explain" : "Trong rừng có một thác nước rất lớn",
+      "jp" : "滝",
+      "mean" : "Thác nước",
+      "read" : "In the forest there is a very large waterfall",
+      "word" : "Waterfall"
+    } ]
+  }
+}

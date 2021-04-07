@@ -1,0 +1,45 @@
+
+{
+    "_bodyBlob":
+    {
+        "_data":
+        {"__collector": [Object],
+            "blobId": "38222043-024f-4c5e-a983-5fbe6240ba25",
+            "offset": 0, "size": 32354
+        }
+    },
+    "_bodyInit":
+    {
+        "_data":
+        {
+            "__collector": [Object],
+            "blobId": "38222043-024f-4c5e-a983-5fbe6240ba25",
+            "offset": 0,
+            "size": 32354
+        }
+    },
+    "bodyUsed": false,
+    "headers":
+    {
+        "map":
+        {
+            "cache-control": "private, must-revalidate, max-age=0",
+            "connection": "close",
+            "content-language": "vi",
+            "content-type": "text/html; charset=utf-8",
+            "date": "Sat, 03 Apr 2021 11:38:38 GMT",
+            "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+            "server": "Apache/2.2.15 (CentOS)",
+            "transfer-encoding": "chunked",
+            "vary": "Accept-Encoding,Cookie"
+        }
+    },
+    "ok": true,
+    "status": 200,
+    "statusText": undefined,
+    "type": "default",
+    "url": "http://tratu.soha.vn/dict/vn_jp/ch%C3%A0o"
+}
+
+
+http://tratu.soha.vn/index.php?search=helo&dict=en_vn&btnSearch=
