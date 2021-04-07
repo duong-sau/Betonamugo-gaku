@@ -53,7 +53,7 @@ export default class TSL extends Component {
       })
       .catch(function (err) {
         // There was an error
-        res = '<div>探している単語は soha.com にありません</div>';
+        res = '<div >  探している単語は tratu.soha.vn にありません </div>';
       });
     return res;
   };
@@ -67,7 +67,9 @@ export default class TSL extends Component {
           title={'翻訳'}
         />
         <View>
-          <Text style={global.style.ContentStyle}>専門用語を検索する</Text>
+          <Text style={global.style.ContentStyle}>
+            http://tratu.soha.vn 専門用語を検索する
+          </Text>
           <View style={{flexDirection: 'row', alignItems: 'center'}}>
             <TextInput
               style={styles.input}
@@ -98,9 +100,8 @@ export class Res extends Component {
     if (this.props.ok === true) {
       return (
         <View>
-          <View style={global.style.ContentBackgroundStyle}>
-            <Text>soha.com による翻訳</Text>
-            <Image source={require('../../src/logoSoha.png')} width={'100%'} />
+          <View >
+            <Text>{'    結果による翻訳'}</Text>
           </View>
           <ScrollView>
             <HtmlView

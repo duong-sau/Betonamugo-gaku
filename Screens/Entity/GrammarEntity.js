@@ -56,7 +56,9 @@ export default class GrammarEntity extends Component {
           onPress={() => {
             V.speech(item.mean);
           }}>
-          <Text style={{fontSize: 30}}>{' ' + item.mean}:{' ' + item.word}</Text>
+          <Text style={{fontSize: 30}}>
+            {' ' + item.mean}:{' ' + item.word}
+          </Text>
           <Text style={{fontSize: 15}}>{'\n' + item.explain}</Text>
           <Text style={{fontSize: 30}}>{item.jp}</Text>
         </TouchableOpacity>
@@ -67,13 +69,11 @@ export default class GrammarEntity extends Component {
   render() {
     return (
       <View style={styles.style}>
-        <View style={styles.titleFrame}>
-          <Header
-            title={this.props.route.params.title}
-            navigation={this.props.navigation}
-            type={'chevron-left'}
-          />
-        </View>
+        <Header
+          title={this.props.route.params.title}
+          navigation={this.props.navigation}
+          type={'chevron-left'}
+        />
         <SafeAreaView style={{flex: 1, paddingTop: 50}}>
           <View
             style={{flex: 1, flexDirection: 'row', justifyContent: 'center'}}>
