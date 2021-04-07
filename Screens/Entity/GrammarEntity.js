@@ -1,12 +1,17 @@
 import React, {Component} from 'react';
-import {Text, View, StyleSheet, TouchableOpacity, FlatList} from 'react-native';
+import {
+  Text,
+  View,
+  StyleSheet,
+  TouchableOpacity,
+  SafeAreaView,
+} from 'react-native';
 let VocabularyList = [];
 import Header from '../../Template/Header';
 import firebase from '@react-native-firebase/app';
 import Tts from 'react-native-tts';
-import DOMParser from 'react-native-html-parser';
-import XMLSerializer from 'react-native-html-parser';
-import HtmlView from 'react-native-htmlview';
+import Carousel from 'react-native-snap-carousel';
+Tts.setDefaultLanguage('vi-vn');
 let V;
 export default class GrammarEntity extends Component {
   loadFromDataBase = async () => {
@@ -36,6 +41,28 @@ export default class GrammarEntity extends Component {
     console.log('speech');
     Tts.speak(content);
   }
+  _renderItem({item, index}) {
+    return (
+      <View
+        style={{
+          backgroundColor: 'floralwhite',
+          borderRadius: 5,
+          height: 250,
+          padding: 50,
+          marginLeft: 25,
+          marginRight: 25,
+        }}>
+        <TouchableOpacity
+          onPress={() => {
+            V.speech(item.mean);
+          }}>
+          <Text style={{fontSize: 30}}>{' ' + item.mean}:{' ' + item.word}</Text>
+          <Text style={{fontSize: 15}}>{'\n' + item.explain}</Text>
+          <Text style={{fontSize: 30}}>{item.jp}</Text>
+        </TouchableOpacity>
+      </View>
+    );
+  }
 
   render() {
     return (
@@ -47,45 +74,29 @@ export default class GrammarEntity extends Component {
             type={'chevron-left'}
           />
         </View>
-        <FlatList
-          data={VocabularyList}
-          numColumns={1}
-          renderItem={({item}) => (
-            <View style={styles.style}>
-              <TouchableOpacity
-                onPress={() => {
-                  this.speech(item.word);
-                }}>
-                <Text style={{width: 400, marginLeft: 20, fontSize: 20}}>
-                  {item.word}: {item.mean}
-                </Text>
-                <Text>{item.jp}</Text>
-                <Text
-                  style={{
-                    fontWeight: 'bold',
-                    marginLeft: 20,
-                    fontSize: 17,
-                  }}>
-                  {item.read}
-                </Text>
-                <Text style={{width: 410, marginLeft: 20, fontSize: 17}}>
-                  {item.explain}
-                </Text>
-              </TouchableOpacity>
-            </View>
-          )}
-          keyExtractor={(item) => item.word}
-        />
-
+        <SafeAreaView style={{flex: 1, paddingTop: 50}}>
+          <View
+            style={{flex: 1, flexDirection: 'row', justifyContent: 'center'}}>
+            <Carousel
+              layout={'default'}
+              ref={(ref) => (this.carousel = ref)}
+              data={VocabularyList}
+              sliderWidth={400}
+              itemWidth={400}
+              renderItem={this._renderItem}
+              onSnapToItem={(index) => this.setState({activeIndex: index})}
+            />
+          </View>
+        </SafeAreaView>
         <TouchableOpacity
-          style={styles.submit_button}
+          style={global.style.ButtonBackgroundStyle}
           onPress={() => {
             this.props.navigation.replace('Practice', {
               title: this.props.route.params.title,
               key: this.props.route.params.key,
             });
           }}>
-          <Text style={styles.footerText}>Luyện Tập</Text>
+          <Text style={global.style.ButtonStyle}>練習</Text>
         </TouchableOpacity>
       </View>
     );
@@ -95,6 +106,8 @@ export default class GrammarEntity extends Component {
 const styles = StyleSheet.create({
   style: {
     flex: 1,
+    alignItems: 'center',
+    marginBottom: 10,
   },
   footerText: {
     fontSize: 20,

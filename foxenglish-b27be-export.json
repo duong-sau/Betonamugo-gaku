@@ -1,0 +1,1669 @@
+{
+  "G1" : {
+    "q1" : {
+      "a0" : "program",
+      "a1" : "piece",
+      "a2" : "industry",
+      "a3" : "firm",
+      "question" : "A midsize design _________, Gilwood Interiors specializes in residential spaces."
+    },
+    "q10" : {
+      "a0" : "completion",
+      "a1" : "completing ",
+      "a2" : "completes ",
+      "a3" : "completely ",
+      "question" : "The manufacturer’s Web site cautions that glass with certain coatings may not fuse _________ with other glass. "
+    },
+    "q11" : {
+      "a0" : "buys",
+      "a1" : "buyer",
+      "a2" : "bought ",
+      "a3" : "buyers",
+      "question" : "Mervin Financial Group offers low-interest home mortgages to first-time _________"
+    },
+    "q12" : {
+      "a0" : "partially ",
+      "a1" : "immediately",
+      "a2" : "thoroughly ",
+      "a3" : "nearly ",
+      "question" : "As _________ a week has passed since the goods were shipped, we should ask the shipper for an update."
+    },
+    "q13" : {
+      "a0" : "experience ",
+      "a1" : "to experience ",
+      "a2" : "experiences ",
+      "a3" : "experienced",
+      "question" : "A new musical production is holding auditions for ________ singers next Saturday at the Grovetown Theater. "
+    },
+    "q14" : {
+      "a0" : "constant ",
+      "a1" : "competent",
+      "a2" : "natural",
+      "a3" : "official",
+      "question" : "Museum members are invited to preview the historic portraits before the _________ opening of the exhibit on April 7. "
+    },
+    "q15" : {
+      "a0" : "record",
+      "a1" : "solution",
+      "a2" : "preference",
+      "a3" : "selection",
+      "question" : "Milton Flooring boasts an impressive _________ of carpets and rugs, in almost every color and type of material. "
+    },
+    "q2" : {
+      "a0" : "herself",
+      "a1" : "hers",
+      "a2" : "she",
+      "a3" : "her",
+      "question" : "The board of directors thanked Juliana Thorne for _________ efforts in organizing the shareholders’ meeting. "
+    },
+    "q3" : {
+      "a0" : "attends",
+      "a1" : "will attend",
+      "a2" : "attend",
+      "a3" : "attended",
+      "question" : "Ms. Rodriguez will speak about a banking conference she _________ in Lisbon last month"
+    },
+    "q4" : {
+      "a0" : "Because",
+      "a1" : "When",
+      "a2" : "Already",
+      "a3" : "After",
+      "question" : "_________ the success of his restaurant, chef Sook Yong wrote a best-selling cookbook."
+    },
+    "q5" : {
+      "a0" : "except",
+      "a1" : "as",
+      "a2" : "onto",
+      "a3" : "before",
+      "question" : "The director of the Yeon Park Clinic will deliver a speech _________ tonight’s benefit dinner."
+    },
+    "q6" : {
+      "a0" : "some",
+      "a1" : "above",
+      "a2" : "each",
+      "a3" : "whatever",
+      "question" : "The staff of the Meng Hotel will do _________ they can to make your stay as enjoyable as possible. "
+    },
+    "q7" : {
+      "a0" : "at",
+      "a1" : "about",
+      "a2" : "of",
+      "a3" : "into",
+      "question" : " Russet Software announced in a press release that it is planning to expand _________ India. "
+    },
+    "q8" : {
+      "a0" : "examined ",
+      "a1" : " qualified ",
+      "a2" : "stated",
+      "a3" : "reduced",
+      "question" : "Lapima Accounting Partners has _________ expenses by limiting international travel."
+    },
+    "q9" : {
+      "a0" : "both ",
+      "a1" : "besides",
+      "a2" : "since ",
+      "a3" : "who ",
+      "question" : "The Micaville Art Gallery features work by artists _________ offer an array of paintings, drawings, and sculptures"
+    },
+    "jp" : {
+      "q1" : {
+        "a0" : "Ngôi làng",
+        "a1" : "Trường học",
+        "a2" : "Lớp học",
+        "a3" : "Gia đình",
+        "question" : "……. của tôi có bốn người: bố, mẹ, anh trai và tôi."
+      },
+      "q10" : {
+        "a0" : "Hôm qua",
+        "a1" : "Tuần trước ",
+        "a2" : "năm ngoái ",
+        "a3" : "Hôm nay ",
+        "question" : "…….. tôi sẽ đi du lịch cùng với các bạn của tôi."
+      },
+      "q11" : {
+        "a0" : "ngủ",
+        "a1" : "ăn",
+        "a2" : "viết ",
+        "a3" : "uống",
+        "question" : "Bạn có muốn …. một tách café không?"
+      },
+      "q12" : {
+        "a0" : "thích ",
+        "a1" : "mê",
+        "a2" : "ghét",
+        "a3" : "cả 3 phương án đều đúng",
+        "question" : "Tôi …….. xem bóng đá."
+      },
+      "q13" : {
+        "a0" : "taxi ",
+        "a1" : "bánh mỳ ",
+        "a2" : "quyển sách ",
+        "a3" : "các công trình kiến trúc",
+        "question" : "Ở Hà Nội có rất nhiều cảnh đẹp. Tôi thích nhất là…."
+      },
+      "q14" : {
+        "a0" : "lạnh ",
+        "a1" : "mát",
+        "a2" : "nóng",
+        "a3" : "rét",
+        "question" : "Mùa hè ở Việt Nam rất…….. Có lúc nhiệt độ lên tới 38 độ C."
+      },
+      "q15" : {
+        "a0" : "cần",
+        "a1" : "chắc",
+        "a2" : "sắp",
+        "a3" : "không",
+        "question" : "Nếu bạn muốn khỏi ốm, bạn….. uống thuốc."
+      },
+      "q2" : {
+        "a0" : "đồ ngọt",
+        "a1" : "táo",
+        "a2" : "rau tươi",
+        "a3" : "cả ba phương án trên đều đúng",
+        "question" : "Nếu bạn ăn nhiều….., bạn sẽ béo lên."
+      }
+    }
+  },
+  "G2" : {
+    "q1" : {
+      "a0" : "was caught",
+      "a1" : "was catching",
+      "a2" : "caught",
+      "a3" : "catch",
+      "question" : "The longest fish in the contest was eighteen inches long, It_____by Thelma Rivers"
+    },
+    "q10" : {
+      "a0" : "been playing",
+      "a1" : "been played",
+      "a2" : "playing",
+      "a3" : "play",
+      "question" : "I heard you decided  to take  up tennis, Yes, I have_____every day"
+    },
+    "q11" : {
+      "a0" : "is being served",
+      "a1" : "is serving",
+      "a2" : "serves",
+      "a3" : "served",
+      "question" : "Are we about to have dinner?, Yes, it_____in the dinrting room"
+    },
+    "q12" : {
+      "a0" : "has been convicted",
+      "a1" : "has convicted",
+      "a2" : "has been convicting",
+      "a3" : "convicted",
+      "question" : "Why is Stanley in jail? ,He_____of robbery"
+    },
+    "q13" : {
+      "a0" : "was destroyed",
+      "a1" : "destroyed ",
+      "a2" : "is destroyed",
+      "a3" : "destroy",
+      "question" : "Where's the old chicken coop, It_____by a windstorm last year"
+    },
+    "q14" : {
+      "a0" : "been found",
+      "a1" : "to find",
+      "a2" : "found",
+      "a3" : "being found",
+      "question" : "We're still looking for Thomas, Hasn't he_____yet?"
+    },
+    "q15" : {
+      "a0" : "hasn't been seen",
+      "a1" : "hasn't been seeing",
+      "a2" : "didn't see",
+      "a3" : "hasn't seen",
+      "question" : "Whatever happened t that fortune - teller?, I don't know. She____around her in a long time"
+    },
+    "q2" : {
+      "a0" : "has been dancing",
+      "a1" : "has been danced",
+      "a2" : "is dancing",
+      "a3" : "was danced",
+      "question" : "Diana is a wonderful ballet dancer, She_____since she was four?"
+    },
+    "q3" : {
+      "a0" : "was made",
+      "a1" : "made",
+      "a2" : "has made",
+      "a3" : "is made",
+      "question" : "What a beautiful dress you're Whaling!, Thank you. It____especially for me by a French tailor"
+    },
+    "q4" : {
+      "a0" : "was told",
+      "a1" : "old",
+      "a2" : "tells",
+      "a3" : "is telling",
+      "question" : "Homer is in jail for smoking marijuana, He____that it was against the law"
+    },
+    "q5" : {
+      "a0" : "were painted",
+      "a1" : "were paint",
+      "a2" : "were painting",
+      "a3" : "painted",
+      "question" : "Those eggs of  different colors are very artistic, Yes, they_____in Russia"
+    },
+    "q6" : {
+      "a0" : "will have moved",
+      "a1" : "will have been moved",
+      "a2" : "were moved",
+      "a3" : "moved",
+      "question" : "The maintenance people didn't remove the chairs from the ballroom, Don't worry. They____them before the dance begins"
+    },
+    "q7" : {
+      "a0" : "was discovered",
+      "a1" : "has been discovered",
+      "a2" : "they discovered",
+      "a3" : "was discover",
+      "question" : "Gold____in California in the nineteenth century"
+    },
+    "q8" : {
+      "a0" : "It is felt",
+      "a1" : "It feels",
+      "a2" : "We are felt",
+      "a3" : "We feel that it is",
+      "question" : "_________that military spending is extremely high"
+    },
+    "q9" : {
+      "a0" : "will be checked",
+      "a1" : "will checked",
+      "a2" : "will been checked",
+      "a3" : "will has checked",
+      "question" : "All planes______before departure"
+    },
+    "jp": {"q1" : {
+  "a0" : "đã",
+  "a1" : "làm",
+  "a2" : "chưa làm",
+  "a3" : "làm xong",
+  "question" : "Bạn ấy rất lo vì……. hết bài tập."
+},
+"q10" : {
+"a0" : "hiểu được",
+"a1" : "vay được",
+"a2" : "hỏi được",
+"a3" : "nói được",
+"question" : "Cậu đã…… số điện thoại của cô giáo chưa?"
+},
+"q2" : {
+"a0" : "đi một ngày đàng, học một sàng khôn",
+"a1" : "dai như đỉa đói",
+"a2" : "chạy long tóc gáy",
+"a3" : "múa rìu qua mắt thợ",
+"question" : "Mẹ tôi đã khuyên tôi không nên làm như vậy. Bà ấy đã đúng. Đúng là không nên……."
+},
+"q3" : {
+"a0" : "tuy nhiên",
+"a1" : "còn",
+"a2" : "mà",
+"a3" : "nhưng",
+"question" : "Chiếc áo dài của chị tôi, …….. chiếc áo ngắn là của tôi."
+},
+"q4" : {
+"a0" : "ai cũng nên biết",
+"a1" : "cũng nên biết ai",
+"a2" : "ai không nên biết",
+"a3" : "không ai nên biết",
+"question" : "Đây là chuyện bí mật. Mọi người……."
+},
+"q5" : {
+"a0" : "ăn",
+"a1" : "món ăn",
+"a2" : "mua sắm",
+"a3" : "nấy",
+"question" : "Bạn gái tôi có thể ….. được những món rất ngon."
+},
+"q6" : {
+"a0" : "xe máy",
+"a1" : "phong bì",
+"a2" : "thịt gà",
+"a3" : "anh tuấn",
+"question" : "- Cậu tìm ai?\nTôi muốn gặp……"
+},
+"q7" : {
+"a0" : "cần",
+"a1" : "thiếu",
+"a2" : "đủ",
+"a3" : "thừa",
+"question" : "Cái bút này giá 6000 đồng. Tôi có 8000 đồng. Tôi mua sách và còn…… 2000 đồng nữa."
+},
+"q8" : {
+"a0" : "làm bài tập",
+"a1" : "viết thư",
+"a2" : "đánh máy",
+"a3" : "liên lạc",
+"question" : "Cho tôi số điện thoại của anh. Lúc nào cần chúng ta sẽ……"
+},
+"q9" : {
+"a0" : "xảy ra",
+"a1" : "xuất hiện",
+"a2" : "xong",
+"a3" : "bắt đầu",
+"question" : "Khi anh ấy đến thì bữa tiệc đã……. . Anh ấy đến muộn 15 phút."
+}
+    }
+  },
+  "G3" : {
+    "q1" : {
+      "a0" : "paint",
+      "a1" : "to paint",
+      "a2" : "painted",
+      "a3" : "painting",
+      "question" : "I'll have the boys______ the chairs."
+    },
+    "q10" : {
+      "a0" : "built",
+      "a1" : "to build",
+      "a2" : "building",
+      "a3" : "build",
+      "question" : "I am going to have a new house______"
+    },
+    "q11" : {
+      "a0" : "taken",
+      "a1" : "taking",
+      "a2" : "take",
+      "a3" : "to take",
+      "question" : "Have these flowers______ to her office, please."
+    },
+    "q12" : {
+      "a0" : "serviced",
+      "a1" : "service",
+      "a2" : "to service",
+      "a3" : "servicing",
+      "question" : "You should have your car______ before going."
+    },
+    "q13" : {
+      "a0" : "tested",
+      "a1" : "test",
+      "a2" : "testing",
+      "a3" : "to test",
+      "question" : "I'll have a new dress______ for my daughter."
+    },
+    "q14" : {
+      "a0" : "",
+      "a1" : "",
+      "a2" : "",
+      "a3" : "",
+      "question" : "Pupils should have their eyes______ regularly."
+    },
+    "q15" : {
+      "a0" : "repaired",
+      "a1" : "to repair",
+      "a2" : "repairing",
+      "a3" : "repair",
+      "question" : "Lisa had the roof______ yesterday."
+    },
+    "q2" : {
+      "a0" : "decorated",
+      "a1" : "had decorated",
+      "a2" : "decorating",
+      "a3" : "decorates",
+      "question" : "They have just had air conditioning______ in their house."
+    },
+    "q3" : {
+      "a0" : "decorated",
+      "a1" : "had decorated",
+      "a2" : "decorating",
+      "a3" : "decorates",
+      "question" : "We had the room______ yesterday"
+    },
+    "q4" : {
+      "a0" : "explained",
+      "a1" : "to explain",
+      "a2" : "explains",
+      "a3" : "explain",
+      "question" : "The villagers have had the use of this washing machine______ by this engineer."
+    },
+    "q5" : {
+      "a0" : "having",
+      "a1" : "to have",
+      "a2" : "to get",
+      "a3" : "taking",
+      "question" : "By______ the housework done, we have time to further our studies."
+    },
+    "q6" : {
+      "a0" : "built",
+      "a1" : "to be built",
+      "a2" : "building",
+      "a3" : "build",
+      "question" : "The government has had new houses______ in the rural areas."
+    },
+    "q7" : {
+      "a0" : "built",
+      "a1" : "to be built",
+      "a2" : "building",
+      "a3" : "build",
+      "question" : "They had the swamp______ last year."
+    },
+    "q8" : {
+      "a0" : "to cut",
+      "a1" : "cut",
+      "a2" : "to drain",
+      "a3" : "drain",
+      "question" : "She is going to have her wedding dress______"
+    },
+    "q9" : {
+      "a0" : "cut",
+      "a1" : "cuts",
+      "a2" : "to cut",
+      "a3" : "cutting",
+      "question" : "It's about time you had your house______"
+    }
+  },
+  "G4" : {
+    "q1" : {
+      "a0" : "at",
+      "a1" : "about",
+      "a2" : "on",
+      "a3" : "in",
+      "question" : "She was very surprised________ the grade she received"
+    },
+    "q10" : {
+      "a0" : "on",
+      "a1" : "at",
+      "a2" : "for",
+      "a3" : "wit",
+      "question" : "We might need more food, depending____ how many people turn up"
+    },
+    "q11" : {
+      "a0" : "on",
+      "a1" : "at",
+      "a2" : "about",
+      "a3" : "over",
+      "question" : "Jane doesn't spend much money______ clothes"
+    },
+    "q12" : {
+      "a0" : "of",
+      "a1" : "for",
+      "a2" : "in",
+      "a3" : "with",
+      "question" : "She always takes good care_______ her children."
+    },
+    "q13" : {
+      "a0" : "A and B",
+      "a1" : "of",
+      "a2" : "about",
+      "a3" : "for",
+      "question" : "A sign warned motorists______ dangers."
+    },
+    "q14" : {
+      "a0" : "into",
+      "a1" : "with",
+      "a2" : "for",
+      "a3" : "about",
+      "question" : "They translated the letter ______ French."
+    },
+    "q15" : {
+      "a0" : "about",
+      "a1" : "for",
+      "a2" : "to",
+      "a3" : "with",
+      "question" : "I was disappointed________ the grade I received on my last essay."
+    },
+    "q2" : {
+      "a0" : "to",
+      "a1" : "for",
+      "a2" : "up",
+      "a3" : "with",
+      "question" : "The medical center is close ________ campus."
+    },
+    "q3" : {
+      "a0" : "by",
+      "a1" : "in",
+      "a2" : "on",
+      "a3" : "with",
+      "question" : "We went there_______ car and stayed there for the whole day."
+    },
+    "q4" : {
+      "a0" : "on",
+      "a1" : "in",
+      "a2" : "by",
+      "a3" : "with",
+      "question" : "We started our journey ______ foot."
+    },
+    "q5" : {
+      "a0" : "from",
+      "a1" : "of",
+      "a2" : "with",
+      "a3" : "against",
+      "question" : "He always prevents me_______ doing my duty."
+    },
+    "q6" : {
+      "a0" : "with",
+      "a1" : "by",
+      "a2" : "in",
+      "a3" : "at",
+      "question" : "I write letters _______ my right hand."
+    },
+    "q7" : {
+      "a0" : "from",
+      "a1" : "with",
+      "a2" : "of",
+      "a3" : "about",
+      "question" : "The war victims suffered terribly______ cold and hunger."
+    },
+    "q8" : {
+      "a0" : "from",
+      "a1" : "at",
+      "a2" : "on",
+      "a3" : "away",
+      "question" : "She is absent_______ class"
+    },
+    "q9" : {
+      "a0" : "of",
+      "a1" : "to",
+      "a2" : "for",
+      "a3" : "from",
+      "question" : "It is very nice______ you to take so much trouble."
+    }
+  },
+  "G5" : {
+    "q1" : {
+      "a0" : "the worst",
+      "a1" : "badly",
+      "a2" : "bad",
+      "a3" : "worse",
+      "question" : "She is ______singer I’ve ever met."
+    },
+    "q10" : {
+      "a0" : "as",
+      "a1" : "the most",
+      "a2" : "much",
+      "a3" : "more",
+      "question" : "Mary is______responsible as Peter."
+    },
+    "q11" : {
+      "a0" : "noisier",
+      "a1" : "noisy",
+      "a2" : "more noisier",
+      "a3" : "noisily",
+      "question" : "It is_____in the city than it is in the country."
+    },
+    "q12" : {
+      "a0" : "the most beautifully",
+      "a1" : "the more beautiful",
+      "a2" : "the more beautifully",
+      "a3" : "the most beautiful",
+      "question" : "She sings_____among the singers I have known."
+    },
+    "q13" : {
+      "a0" : "the most hard-working",
+      "a1" : "more hard-working",
+      "a2" : "as hard-working",
+      "a3" : "most hard-working",
+      "question" : "She is________student in my class."
+    },
+    "q14" : {
+      "a0" : "easier",
+      "a1" : "easiest",
+      "a2" : "more easy",
+      "a3" : "the easier",
+      "question" : "The English test was_________than I thought it would be."
+    },
+    "q15" : {
+      "a0" : "harder",
+      "a1" : "the more hard",
+      "a2" : "hardest",
+      "a3" : "the hardest",
+      "question" : "English is thought to be_______than Math."
+    },
+    "q2" : {
+      "a0" : "the biggest",
+      "a1" : "bigger",
+      "a2" : "biggest",
+      "a3" : "the bigger",
+      "question" : "Jupiter is_______planet in the solar system."
+    },
+    "q3" : {
+      "a0" : "the most slowly",
+      "a1" : "the slowly",
+      "a2" : "the most slow",
+      "a3" : "the slowest",
+      "question" : "She runs______in my class."
+    },
+    "q4" : {
+      "a0" : "cheaper than",
+      "a1" : "more cheap than",
+      "a2" : "cheaper",
+      "a3" : "cheap than",
+      "question" : "My house is_______hers."
+    },
+    "q5" : {
+      "a0" : "farther",
+      "a1" : "farer",
+      "a2" : "more far",
+      "a3" : "father",
+      "question" : "Her office is______away than mine."
+    },
+    "q6" : {
+      "a0" : "more handsome",
+      "a1" : "handsome",
+      "a2" : "the more handsome",
+      "a3" : "the most handsome",
+      "question" : "Tom is________than David."
+    },
+    "q7" : {
+      "a0" : "worse than",
+      "a1" : "more badly than",
+      "a2" : "badder than",
+      "a3" : "as bad as",
+      "question" : "He did the test__________I did."
+    },
+    "q8" : {
+      "a0" : "slower",
+      "a1" : "slowest",
+      "a2" : "more slow",
+      "a3" : "more slower",
+      "question" : "A boat is______than a plane."
+    },
+    "q9" : {
+      "a0" : "more comfortable",
+      "a1" : "more comfortabler",
+      "a2" : "comfortably",
+      "a3" : "comfortable",
+      "question" : "My new sofa is________than the old one."
+    }
+  },
+  "G6" : {
+    "q1" : {
+      "a0" : "am attending ",
+      "a1" : "attend",
+      "a2" : "was attending ",
+      "a3" : "attended",
+      "question" : "I_________Louisiana state University."
+    },
+    "q10" : {
+      "a0" : "since ten years",
+      "a1" : "ten years ago",
+      "a2" : "for ten years ago",
+      "a3" : "for ten years",
+      "question" : "He has been selling motorcycles_________"
+    },
+    "q11" : {
+      "a0" : "discovered",
+      "a1" : "has discovered ",
+      "a2" : "had discovered ",
+      "a3" : "he has gone",
+      "question" : "Columbus_________America more then 400 years ago."
+    },
+    "q12" : {
+      "a0" : "was running ",
+      "a1" : "runs ",
+      "a2" : "run ",
+      "a3" : "had run",
+      "question" : "He fell down when he_________towards the church."
+    },
+    "q13" : {
+      "a0" : "were still living",
+      "a1" : "lived still ",
+      "a2" : "was still living ",
+      "a3" : "still lived ",
+      "question" : "We_________there when our father died."
+    },
+    "q14" : {
+      "a0" : "will be playing ",
+      "a1" : "will play ",
+      "a2" : "play",
+      "a3" : "would play ",
+      "question" : "They_________pingpong when their father comes back home."
+    },
+    "q15" : {
+      "a0" : "Shall have been working",
+      "a1" : "shall work",
+      "a2" : "have been working ",
+      "a3" : "shall be working",
+      "question" : "By Christmas, I_________for you for 6 months."
+    },
+    "q2" : {
+      "a0" : "am",
+      "a1" : "have been being ",
+      "a2" : "was being ",
+      "a3" : "am being ",
+      "question" : "I_________in the room now"
+    },
+    "q3" : {
+      "a0" : "have been",
+      "a1" : "have",
+      "a2" : "been",
+      "a3" : "had been",
+      "question" : "I________to New york three times this year."
+    },
+    "q4" : {
+      "a0" : "leave",
+      "a1" : "shall leave",
+      "a2" : "will leave",
+      "a3" : "have left ",
+      "question" : "I will come and see you before I_________for America."
+    },
+    "q5" : {
+      "a0" : "had happened",
+      "a1" : "happened ",
+      "a2" : "has happened ",
+      "a3" : "would have been happened",
+      "question" : "The little girl asked wha______to her friend."
+    },
+    "q6" : {
+      "a0" : "was reading ",
+      "a1" : "reading ",
+      "a2" : "read ",
+      "a3" : "reading",
+      "question" : "John ___________a book when I saw him."
+    },
+    "q7" : {
+      "a0" : "has just opened ",
+      "a1" : "open",
+      "a2" : "will have opened ",
+      "a3" : "opening",
+      "question" : "Jack.............the door"
+    },
+    "q8" : {
+      "a0" : "would ",
+      "a1" : "will ",
+      "a2" : "can ",
+      "a3" : "would be",
+      "question" : "He said he___________return later."
+    },
+    "q9" : {
+      "a0" : "all are correct",
+      "a1" : "for two hours ",
+      "a2" : "since 9 a.m ",
+      "a3" : "since early morning ",
+      "question" : "I have been waiting for you__________"
+    }
+  },
+  "G7" : {
+    "q1" : {
+      "a0" : "haven’t seen ",
+      "a1" : "don’t see",
+      "a2" : "didn’t see ",
+      "a3" : "hadn’t seen",
+      "question" : "We________Doris since last Sunday."
+    },
+    "q10" : {
+      "a0" : "was living ",
+      "a1" : "has been living",
+      "a2" : "is living ",
+      "a3" : "has lived",
+      "question" : "When I last saw him, he________in London."
+    },
+    "q11" : {
+      "a0" : "had had",
+      "a1" : "have had",
+      "a2" : "have has ",
+      "a3" : "had",
+      "question" : "After I________lunch, I looked for my bag."
+    },
+    "q12" : {
+      "a0" : "will have learned",
+      "a1" : "",
+      "a2" : "",
+      "a3" : "",
+      "question" : "By the end of next year, Geoge________English for 2 years."
+    },
+    "q13" : {
+      "a0" : "walked",
+      "a1" : "walks",
+      "a2" : "walk",
+      "a3" : "walking",
+      "question" : "The man got out the car ,________round to the back and opened the boot"
+    },
+    "q14" : {
+      "a0" : "has been ",
+      "a1" : "is",
+      "a2" : "was",
+      "a3" : "had been",
+      "question" : "For several years his ambition________to be a pilot."
+    },
+    "q15" : {
+      "a0" : "went",
+      "a1" : "was going ",
+      "a2" : "has gone ",
+      "a3" : "did go",
+      "question" : "Henry________into the restaurant when the writer was having dinner."
+    },
+    "q2" : {
+      "a0" : "finishes",
+      "a1" : "finish",
+      "a2" : "will finish",
+      "a3" : "shall have finished",
+      "question" : "He will take the dog out for a walk as soon as he________dinner."
+    },
+    "q3" : {
+      "a0" : "had been written",
+      "a1" : "had written",
+      "a2" : "has been written",
+      "a3" : "was written",
+      "question" : "Before you asked, the letter________"
+    },
+    "q4" : {
+      "a0" : "has finished",
+      "a1" : "finished",
+      "a2" : "finishing",
+      "a3" : "finished",
+      "question" : "Ask her to come and see me when she________her work."
+    },
+    "q5" : {
+      "a0" : "floats",
+      "a1" : "floated",
+      "a2" : "will be floated",
+      "a3" : "float",
+      "question" : "Oil________if you pour it on water."
+    },
+    "q6" : {
+      "a0" : "lies",
+      "a1" : "lays",
+      "a2" : "located",
+      "a3" : "lain",
+      "question" : "The dancing club________north of the city."
+    },
+    "q7" : {
+      "a0" : "had left",
+      "a1" : "leaves",
+      "a2" : "left",
+      "a3" : "leave",
+      "question" : "Almost everyone________for home by the time we arrived."
+    },
+    "q8" : {
+      "a0" : "had written",
+      "a1" : "wrote",
+      "a2" : "writes",
+      "a3" : "has written",
+      "question" : "By the age of 25, he________two famous novels."
+    },
+    "q9" : {
+      "a0" : "wrote",
+      "a1" : "was written",
+      "a2" : "had written",
+      "a3" : "was writing",
+      "question" : "While her husband was in the army, Janet________to him twice a week."
+    }
+  },
+  "G8" : {
+    "q1" : {
+      "a0" : "will have had",
+      "a1" : "have",
+      "a2" : "should have ",
+      "a3" : "will have",
+      "question" : "I like looking at these pictures, but I________enough by lunch time."
+    },
+    "q10" : {
+      "a0" : "does this word mean",
+      "a1" : "means this word",
+      "a2" : "have this word mean",
+      "a3" : "does mean this word",
+      "question" : "I don’t understand this sentence.What________?"
+    },
+    "q11" : {
+      "a0" : "have usually played",
+      "a1" : "usually plays",
+      "a2" : "is usually playing",
+      "a3" : "usually play",
+      "question" : "John________tennis once or twice a week."
+    },
+    "q12" : {
+      "a0" : "had had",
+      "a1" : "have had",
+      "a2" : "were having",
+      "a3" : "had",
+      "question" : "It was noisy next door. Our neighbors________a party."
+    },
+    "q13" : {
+      "a0" : "is getting ",
+      "a1" : "has got",
+      "a2" : "get",
+      "a3" : "got",
+      "question" : "It________dark.Shall I turn on the light?"
+    },
+    "q14" : {
+      "a0" : "is going to",
+      "a1" : "Will have been",
+      "a2" : "shall",
+      "a3" : "will",
+      "question" : "Look at her! She _____ win the race"
+    },
+    "q15" : {
+      "a0" : "isn’t going to",
+      "a1" : "is going to",
+      "a2" : "will",
+      "a3" : "Will have been",
+      "question" : "John hasn’t studied. He ________ pass his exam"
+    },
+    "q2" : {
+      "a0" : "will",
+      "a1" : "shall",
+      "a2" : "have ",
+      "a3" : "is going to",
+      "question" : "Linda _____ be twelve next year"
+    },
+    "q3" : {
+      "a0" : "will be lying ",
+      "a1" : "will lie ",
+      "a2" : "am lying",
+      "a3" : "have",
+      "question" : "I’m going on holiday on Saturday.This time next week I__________on a beach in the sea."
+    },
+    "q4" : {
+      "a0" : "are going to",
+      "a1" : "don’t",
+      "a2" : "will",
+      "a3" : "Will have been",
+      "question" : "Watch out! You ____ fall"
+    },
+    "q5" : {
+      "a0" : "have been married",
+      "a1" : "married",
+      "a2" : "were married",
+      "a3" : "has been married",
+      "question" : "Ted and Amy__________for 24 years."
+    },
+    "q6" : {
+      "a0" : "will be lying",
+      "a1" : "should be lying",
+      "a2" : "will lie ",
+      "a3" : "am lying",
+      "question" : "I’m going on holiday on Saturday.This time next week I_______on a beach in the sea."
+    },
+    "q7" : {
+      "a0" : "Will have been",
+      "a1" : "are going to",
+      "a2" : "shall",
+      "a3" : "will",
+      "question" : "4. The boys ______ play football this afternoon"
+    },
+    "q8" : {
+      "a0" : "is",
+      "a1" : "am",
+      "a2" : "are",
+      "a3" : "Will have been",
+      "question" : "2. Tom ____ going to be a doctor"
+    },
+    "q9" : {
+      "a0" : "will",
+      "a1" : "shall",
+      "a2" : "am going to",
+      "a3" : "Will have been",
+      "question" : "I promise I _____ email you every day"
+    }
+  },
+  "G9" : {
+    "q1" : {
+      "a0" : "is",
+      "a1" : "be",
+      "a2" : "was",
+      "a3" : "were",
+      "question" : "If it_____ convenient, let's go out for a drink tonight."
+    },
+    "q10" : {
+      "a0" : "have",
+      "a1" : "had",
+      "a2" : "have had",
+      "a3" : "has",
+      "question" : "If you_____ time, please write to me."
+    },
+    "q11" : {
+      "a0" : "were",
+      "a1" : "am",
+      "a2" : "was",
+      "a3" : "be",
+      "question" : "I shouldn't go there at night if I_____ you."
+    },
+    "q12" : {
+      "a0" : "can",
+      "a1" : "could",
+      "a2" : "may",
+      "a3" : "might",
+      "question" : "If I_____ get a pole, I'll go fishing."
+    },
+    "q13" : {
+      "a0" : "might",
+      "a1" : "must",
+      "a2" : "can",
+      "a3" : "will",
+      "question" : "If they had enough time, they_____ head south."
+    },
+    "q14" : {
+      "a0" : "would",
+      "a1" : "do",
+      "a2" : "may",
+      "a3" : "did",
+      "question" : "If you had the chance, _____ you go fishing?"
+    },
+    "q15" : {
+      "a0" : "had",
+      "a1" : "will have",
+      "a2" : "had have",
+      "a3" : "have",
+      "question" : "If you_____ a choice, which country would you visit?"
+    },
+    "q2" : {
+      "a0" : "would",
+      "a1" : "will",
+      "a2" : "should",
+      "a3" : "shall",
+      "question" : "If I found a wallet in the street, I_____ take it to police"
+    },
+    "q3" : {
+      "a0" : "didn't",
+      "a1" : "don't",
+      "a2" : "will",
+      "a3" : "will not",
+      "question" : "I don't really want to go to their party, but I probably will go. They'd be offended if I_____ go."
+    },
+    "q4" : {
+      "a0" : "won",
+      "a1" : "win",
+      "a2" : "will",
+      "a3" : "will win",
+      "question" : "What would you do if you _____ a million pounds?"
+    },
+    "q5" : {
+      "a0" : "went",
+      "a1" : "go",
+      "a2" : "would go",
+      "a3" : "will go",
+      "question" : "I'm not tired enough to go to bed yet. I wouldn't sleep if I_____ to bed now."
+    },
+    "q6" : {
+      "a0" : "wouldn’t buy",
+      "a1" : "didn’t buy",
+      "a2" : "don't buy",
+      "a3" : "won't buy",
+      "question" : "I_____ that coat if I were you."
+    },
+    "q7" : {
+      "a0" : "had been/ would have met",
+      "a1" : "were/ would have met",
+      "a2" : "had been/ would meet",
+      "a3" : "were/would meet",
+      "question" : "If you_____ here yesterday, you_____ me."
+    },
+    "q8" : {
+      "a0" : "would take",
+      "a1" : "will take",
+      "a2" : "take ",
+      "a3" : "would have taken",
+      "question" : "If I was offered the job, I think I _____ it."
+    },
+    "q9" : {
+      "a0" : "refused",
+      "a1" : "had refuse",
+      "a2" : "would refuse",
+      "a3" : "refused",
+      "question" : "I would be very surprised if he_____"
+    }
+  },
+  "Vocabulary" : {
+    "G1" : {
+      "VocabularyList" : [ {
+        "explain" : "Cô ấy lướt qua mặt biển để tìm Stephen.",
+        "jp" : " わたつみ [綿津見] ",
+        "mean" : "Biển",
+        "read" : "She scanned the sea of ​​faces to find Stephen.",
+        "word" : "Sea"
+      }, {
+        "explain" : "biển Atlantic",
+        "jp" : " えんよう [遠洋] ",
+        "mean" : "Đại dương",
+        "read" : "the Atlantic Ocean",
+        "word" : "Ocean"
+      }, {
+        "explain" : "Phần lớn châu Âu được bao phủ bởi rừng",
+        "jp" : " じゅりん [樹林] ",
+        "mean" : "Rừng",
+        "read" : "Much of Europe was covered with forest",
+        "word" : "Forest"
+      }, {
+        "explain" : "Một hòn đảo yên tĩnh trên biển",
+        "jp" : " しま [島] ",
+        "mean" : "Đảo",
+        "read" : "An island of calm on the sea",
+        "word" : "Island"
+      }, {
+        "explain" : "Ngôi làng được bao quanh bởi những ngọn núi",
+        "jp" : " マウンテン ",
+        "mean" : "Ngọn núi",
+        "read" : "The village is surrounded by mountains",
+        "word" : "Mountain"
+      }, {
+        "explain" : "Cao nguyên Madagascar",
+        "jp" : " ハイランド ",
+        "mean" : "Cao nguyên",
+        "read" : "The highlands of Madagascar",
+        "word" : "Highland"
+      }, {
+        "explain" : "Chuyến đi bị trì hoãn do địa hình gồ ghề",
+        "jp" : " ちけい [地形] ",
+        "mean" : "Địa hình",
+        "read" : "The trip was delayed by the rough terrain",
+        "word" : "Terrain"
+      }, {
+        "explain" : "Phát triển kinh tế bị hạn chế bởi khí hậu",
+        "jp" : " きしょう [気象] ",
+        "mean" : "Khí hậu",
+        "read" : "Economic development is constrained by climate",
+        "word" : "Climate"
+      }, {
+        "explain" : "Nếu thời tiết tốt chúng ta có thể đi dạo",
+        "jp" : " てんしょく [天色] ",
+        "mean" : "Thời tiết",
+        "read" : "If the weather's good we can go for a walk",
+        "word" : "Weather"
+      }, {
+        "explain" : "Trong rừng có một thác nước rất lớn",
+        "jp" : "滝",
+        "mean" : "Thác nước",
+        "read" : "In the forest there is a very large waterfall",
+        "word" : "Waterfall"
+      } ]
+    },
+    "G2" : {
+      "VocabularyList" : [ {
+        "explain" : "Bắt tay là một cách tốt để giao tiếp",
+        "jp" : " シェークハンド ",
+        "mean" : "Bắt tay",
+        "read" : "Shaking hands is a good way to communicate",
+        "word" : "Shake hands"
+      }, {
+        "explain" : "Xin chào, lâu rồi không gặp",
+        "jp" : "久しぶり",
+        "mean" : "Lâu rồi không gặp",
+        "read" : "Hello, long time no see",
+        "word" : "Long time no see"
+      }, {
+        "explain" : "Hôm nay dừng ở đây. Hẹn gặp lại",
+        "jp" : "じゃあまたね ",
+        "mean" : "Hẹn gặp lại sau",
+        "read" : "Today stop here. See you later",
+        "word" : "See you later"
+      }, {
+        "explain" : "Chúng tôi chào nhau bằng những cái ôm ",
+        "jp" : " ほうよう [抱擁] ",
+        "mean" : "Ôm",
+        "read" : "We greet each other with hugs",
+        "word" : "Hug"
+      }, {
+        "explain" : "Trước khi đi ngủ, người ta hay nói chúc ngủ ngon",
+        "jp" : " おやすみなさい [御休みなさい] ",
+        "mean" : "Chúc ngủ ngon",
+        "read" : "Before going to bed, people say good night",
+        "word" : "Good night"
+      }, {
+        "explain" : "Tạm biệt. Hẹn gặp lại",
+        "jp" : " オールボアール ",
+        "mean" : "Tạm biệt",
+        "read" : "Good bye. See you again",
+        "word" : "Good bye"
+      }, {
+        "explain" : "Rất vui được gặp bạn",
+        "jp" : "始めまして",
+        "mean" : "Rất vui được gặp bạn",
+        "read" : "Nice to meet you",
+        "word" : "Nice to meet you"
+      }, {
+        "explain" : "Hôn là một cách chào hỏi phổ biến ở Châu Âu",
+        "jp" : " くちづけ [口付け] ",
+        "mean" : "Hôn",
+        "read" : "Kissing is a common greeting in Europe",
+        "word" : "Kiss"
+      }, {
+        "explain" : "Chào hỏi là cách tốt nhất để làm quen",
+        "jp" : " えしゃく [会釈] ",
+        "mean" : "Lời chào",
+        "read" : "Greetings is the best way to get acquainted",
+        "word" : "Greeting"
+      } ]
+    },
+    "G3" : {
+      "VocabularyList" : [ {
+        "explain" : "Cô ấy đã sáng tác lời cho nhiều bài hát.",
+        "jp" : "<div>探している単語は soha.com にありません</div>",
+        "mean" : "Lời bài hát",
+        "read" : "She composed lyrics for a many songs.",
+        "word" : "Lyrics"
+      }, {
+        "explain" : "Giai điệu này nghe bắt tai quá",
+        "jp" : "<div>探している単語は soha.com にありません</div>",
+        "mean" : "Giai điệu",
+        "read" : "This melody sounds so catchy",
+        "word" : "Melody"
+      }, {
+        "explain" : "Có nhiều nhạc cụ khác nhau",
+        "jp" : " がっき [楽器] ",
+        "mean" : "Nhạc cụ",
+        "read" : "There are many different instruments",
+        "word" : "Musical instrument"
+      }, {
+        "explain" : "Bản giao hưởng thứ năm của Beethoven",
+        "jp" : " こうきょうきょく [交響曲] ",
+        "mean" : "Nhạc giao hưởng",
+        "read" : "Beethoven's Fifth Symphony",
+        "word" : "Symphony"
+      }, {
+        "explain" : "Đeo tai nghe quá nhiều là không tốt",
+        "jp" : "<div>探している単語は soha.com にありません</div>",
+        "mean" : "Tai nghe",
+        "read" : "Wearing headphones too much is not good",
+        "word" : "Headphones"
+      }, {
+        "explain" : "Anh ấy thích nghe nhạc cổ điển",
+        "jp" : "<div>探している単語は soha.com にありません</div>",
+        "mean" : "Nhạc cố điển",
+        "read" : "He loves listening to classical music",
+        "word" : "Classical"
+      }, {
+        "explain" : "Ban nhạc The Beatle đã tan rã từ lâu",
+        "jp" : "<div>探している単語は soha.com にありません</div>",
+        "mean" : "Ban nhạc",
+        "read" : "Band The Beattle has been disbanded ",
+        "word" : "Band"
+      }, {
+        "explain" : "Phát triển kinh tế bị hạn chế bởi khí hậu",
+        "jp" : " きしょう [気象] ",
+        "mean" : "Khí hậu",
+        "read" : "Economic development is constrained by climate",
+        "word" : "Climate"
+      }, {
+        "explain" : "Nếu thời tiết tốt chúng ta có thể đi dạo",
+        "jp" : " てんしょく [天色] ",
+        "mean" : "Thời tiết",
+        "read" : "If the weather's good we can go for a walk",
+        "word" : "Weather"
+      }, {
+        "explain" : "Trong rừng có một thác nước rất lớn",
+        "jp" : "<div>探している単語は soha.com にありません</div>",
+        "mean" : "Thác nước",
+        "read" : "In the forest there is a very large waterfall",
+        "word" : "Waterfall"
+      } ]
+    },
+    "G4" : {
+      "VocabularyList" : [ {
+        "explain" : "Cô ấy đã sáng tác lời cho nhiều bài hát.",
+        "jp" : "<div>探している単語は soha.com にありません</div>",
+        "mean" : "Lời bài hát",
+        "read" : "She composed lyrics for a many songs.",
+        "word" : "Lyrics"
+      }, {
+        "explain" : "Giai điệu này nghe bắt tai quá",
+        "jp" : "<div>探している単語は soha.com にありません</div>",
+        "mean" : "Giai điệu",
+        "read" : "This melody sounds so catchy",
+        "word" : "Melody"
+      }, {
+        "explain" : "Có nhiều nhạc cụ khác nhau",
+        "jp" : " がっき [楽器] ",
+        "mean" : "Nhạc cụ",
+        "read" : "There are many different instruments",
+        "word" : "Musical instrument"
+      }, {
+        "explain" : "Bản giao hưởng thứ năm của Beethoven",
+        "jp" : " こうきょうきょく [交響曲] ",
+        "mean" : "Nhạc giao hưởng",
+        "read" : "Beethoven's Fifth Symphony",
+        "word" : "Symphony"
+      }, {
+        "explain" : "Đeo tai nghe quá nhiều là không tốt",
+        "jp" : "<div>探している単語は soha.com にありません</div>",
+        "mean" : "Tai nghe",
+        "read" : "Wearing headphones too much is not good",
+        "word" : "Headphones"
+      }, {
+        "explain" : "Anh ấy thích nghe nhạc cổ điển",
+        "jp" : "<div>探している単語は soha.com にありません</div>",
+        "mean" : "Nhạc cố điển",
+        "read" : "He loves listening to classical music",
+        "word" : "Classical"
+      }, {
+        "explain" : "Ban nhạc The Beatle đã tan rã từ lâu",
+        "jp" : "<div>探している単語は soha.com にありません</div>",
+        "mean" : "Ban nhạc",
+        "read" : "Band The Beattle has been disbanded ",
+        "word" : "Band"
+      }, {
+        "explain" : "Phát triển kinh tế bị hạn chế bởi khí hậu",
+        "jp" : " きしょう [気象] ",
+        "mean" : "Khí hậu",
+        "read" : "Economic development is constrained by climate",
+        "word" : "Climate"
+      }, {
+        "explain" : "Nếu thời tiết tốt chúng ta có thể đi dạo",
+        "jp" : " てんしょく [天色] ",
+        "mean" : "Thời tiết",
+        "read" : "If the weather's good we can go for a walk",
+        "word" : "Weather"
+      }, {
+        "explain" : "Trong rừng có một thác nước rất lớn",
+        "jp" : "<div>探している単語は soha.com にありません</div>",
+        "mean" : "Thác nước",
+        "read" : "In the forest there is a very large waterfall",
+        "word" : "Waterfall"
+      } ]
+    },
+    "G5" : {
+      "VocabularyList" : [ {
+        "explain" : "Tôi có một nhóm bạn rất thân thiết",
+        "jp" : " フレンズ ",
+        "mean" : "Bạn",
+        "read" : "I have a very close group of friends",
+        "word" : "Friends"
+      }, {
+        "explain" : "Anh ấy là một người đồng chí tốt",
+        "jp" : " なかまどうし [仲間同士] ",
+        "mean" : "Đồng chí",
+        "read" : "He's a good comrade",
+        "word" : "Comrades"
+      }, {
+        "explain" : "Tôi từng có những người đồng đội tốt ở bên",
+        "jp" : "チームメイト ",
+        "mean" : "Đồng đội",
+        "read" : "I used to have good teammates by my side",
+        "word" : "Teammates"
+      }, {
+        "explain" : "Cô ấy là đồng nghiệp của tôi",
+        "jp" : " しゃゆう [社友] ",
+        "mean" : "Đồng nghiệp",
+        "read" : "She is my colleague",
+        "word" : "Colleague"
+      }, {
+        "explain" : "Sau ngày hôm đó, tôi đã kết bạn mới",
+        "jp" : "新しい友達",
+        "mean" : "Bạn mới",
+        "read" : "After that day, I made new friends",
+        "word" : "New friends"
+      }, {
+        "explain" : "tuần trước, tôi có gặp một người quen ở Hà Nội ",
+        "jp" : " じょくち [辱知] ",
+        "mean" : "Người quen",
+        "read" : "Last week, I met an acquaintance in Hanoi",
+        "word" : "Acquaintance"
+      }, {
+        "explain" : "Đối tác của công ty chúng tôi đến từ Hồ Chí Minh",
+        "jp" : " パートナー ",
+        "mean" : "Đối tác",
+        "read" : "Our company's partner is from Ho Chi Minh",
+        "word" : "Partner"
+      }, {
+        "explain" : "Trong lớp, Huy là bạn thân của Long",
+        "jp" : " ベストフレンド ",
+        "mean" : "Bạn thân",
+        "read" : "In class, Huy is Long's best friend",
+        "word" : "Best friend"
+      }, {
+        "explain" : "Hai năm trước, họ từng là vợ chồng",
+        "jp" : "夫",
+        "mean" : "Vợ chồng",
+        "read" : "Two years ago, they used to be husband and wife",
+        "word" : "Husband"
+      }, {
+        "explain" : "Rất khó để chúng ta tìm được một người tri kỷ",
+        "jp" : "ソウルメイト",
+        "mean" : "Tri kỉ",
+        "read" : "It is very difficult for us to find a soulmate",
+        "word" : "Soulmate"
+      } ]
+    },
+    "G6" : {
+      "VocabularyList" : [ {
+        "explain" : "Hôm nay tôi ăn rất nhiều bánh ngọt",
+        "jp" : " てんしん [点心] ",
+        "mean" : "Bánh ngọt",
+        "read" : "Today I eat a lot of cakes",
+        "word" : "Cakes"
+      }, {
+        "explain" : "Sáng nay tôi đã ăn bánh mì",
+        "jp" : " ブレッド ",
+        "mean" : "Bánh mì",
+        "read" : "This morning I ate bread",
+        "word" : "Bread"
+      }, {
+        "explain" : "Đằng kí có một quán xôi rất ngon.",
+        "jp" : "餅米",
+        "mean" : "xôi",
+        "read" : "There is a very good sticky rice shop next there",
+        "word" : "Sticky rice"
+      }, {
+        "explain" : "Mì là món ăn truyền thống của Trung Quốc",
+        "jp" : " めん [麺] ",
+        "mean" : "Mì",
+        "read" : "Noodles are traditional Chinese dishes",
+        "word" : "Noodles"
+      }, {
+        "explain" : "Bánh bao là món ăn yêu thích của tôi",
+        "jp" : "ご飯",
+        "mean" : "Bánh bao",
+        "read" : "Dumplings are my favorite food",
+        "word" : "Dumplings"
+      }, {
+        "explain" : "Gạo là nguyên liệu làm rượu",
+        "jp" : "<div>探している単語は soha.com にありません</div>",
+        "mean" : "Gạo",
+        "read" : "Rice is the raw material for wine",
+        "word" : "Rice"
+      }, {
+        "explain" : "Bánh mì thịt trên đường phố Hà Nội rất ngon",
+        "jp" : "サンドイッチ",
+        "mean" : "Bánh mì thịt",
+        "read" : "The sandwiches on the streets of Hanoi are good",
+        "word" : "The sandwiches"
+      }, {
+        "explain" : "Chúng ta làm một chiếc bánh sinh nhật cho cô ấy",
+        "jp" : "鍋",
+        "mean" : "Bánh sinh nhật",
+        "read" : "We'll make a birthday cake for her",
+        "word" : "Birthday cake"
+      }, {
+        "explain" : "Hôm nay nhóm mình đi ăn lẩu",
+        "jp" : "<div>探している単語は soha.com にありません</div>",
+        "mean" : "Lẩu",
+        "read" : "Our group is going to have hot pot today",
+        "word" : "Hot pot"
+      }, {
+        "explain" : "Chúng ta nên ăn rau mỗi ngày",
+        "jp" : " そさい [蔬菜] ",
+        "mean" : "Rau",
+        "read" : "We should eat vegetables every day",
+        "word" : "Vegetables"
+      } ]
+    },
+    "G7" : {
+      "VocabularyList" : [ {
+        "explain" : "Tôi tập thể dục mỗi ngày để có sức khỏe tốt",
+        "jp" : " うんどう [運動] ",
+        "mean" : "Thể dục",
+        "read" : "I exercise every day for good health",
+        "word" : "Exercise"
+      }, {
+        "explain" : "Sở thích của tôi là bóng đá",
+        "jp" : " サッカー ",
+        "mean" : "Bóng đá",
+        "read" : "My hobby is soccer",
+        "word" : "Soccer"
+      }, {
+        "explain" : "Tôi chơi quần vợt vào thứ Tư hàng tuần",
+        "jp" : "テニス",
+        "mean" : "Quần vợt",
+        "read" : "I play tennis every Wednesday",
+        "word" : "Tennis"
+      }, {
+        "explain" : "Bóng đá là môn thể thao phổ biến nhất ở Việt Nam",
+        "jp" : "スポーツ",
+        "mean" : "Thể thao",
+        "read" : "Football is the most popular sport in Vietnam",
+        "word" : "Sport"
+      }, {
+        "explain" : "CLB Hà Nội vô địch giải bóng chuyền năm nay",
+        "jp" : "バレーボール",
+        "mean" : "Bóng chuyền",
+        "read" : "Club HaNoi won the volleyball tournament",
+        "word" : "Volleyball"
+      }, {
+        "explain" : "Buffalo Bills là một đội bóng chày ở nước Mỹ",
+        "jp" : "野球",
+        "mean" : "Bóng chày",
+        "read" : "Buffalo Bills is a baseball team in America",
+        "word" : "Baseball"
+      }, {
+        "explain" : "Lindan là một vận động viên cầu lông xuất sắc",
+        "jp" : "バドミントン",
+        "mean" : "Cầu lông",
+        "read" : "Lindan is a excellent badminton player ",
+        "word" : "Badminton"
+      }, {
+        "explain" : "Bóng rổ là môn thể thao yêu thích của tôi",
+        "jp" : " ろうきゅう [籠球] ",
+        "mean" : "Bóng rổ",
+        "read" : "Basketball gradually becomes  my favorite sport",
+        "word" : "Basketball"
+      }, {
+        "explain" : "Tôi đang chạy trong công viên Hòa Bình",
+        "jp" : "ランニング",
+        "mean" : "Chạy bộ",
+        "read" : "I'm running in Hoa Binh park",
+        "word" : "Running"
+      }, {
+        "explain" : "Thực ra, tôi chơi đá bóng tệ",
+        "jp" : " フットボール ",
+        "mean" : "Đá bóng",
+        "read" : "Actually, I play football badly",
+        "word" : "Football"
+      } ]
+    },
+    "G8" : {
+      "VocabularyList" : [ {
+        "explain" : "Cô ấy đã sáng tác lời cho nhiều bài hát.",
+        "jp" : "<div>探している単語は soha.com にありません</div>",
+        "mean" : "Lời bài hát",
+        "read" : "She composed lyrics for a many songs.",
+        "word" : "Lyrics"
+      }, {
+        "explain" : "Giai điệu này nghe bắt tai quá",
+        "jp" : "<div>探している単語は soha.com にありません</div>",
+        "mean" : "Giai điệu",
+        "read" : "This melody sounds so catchy",
+        "word" : "Melody"
+      }, {
+        "explain" : "Có nhiều nhạc cụ khác nhau",
+        "jp" : " がっき [楽器] ",
+        "mean" : "Nhạc cụ",
+        "read" : "There are many different instruments",
+        "word" : "Musical instrument"
+      }, {
+        "explain" : "Bản giao hưởng thứ năm của Beethoven",
+        "jp" : " こうきょうきょく [交響曲] ",
+        "mean" : "Nhạc giao hưởng",
+        "read" : "Beethoven's Fifth Symphony",
+        "word" : "Symphony"
+      }, {
+        "explain" : "Đeo tai nghe quá nhiều là không tốt",
+        "jp" : "<div>探している単語は soha.com にありません</div>",
+        "mean" : "Tai nghe",
+        "read" : "Wearing headphones too much is not good",
+        "word" : "Headphones"
+      }, {
+        "explain" : "Anh ấy thích nghe nhạc cổ điển",
+        "jp" : "<div>探している単語は soha.com にありません</div>",
+        "mean" : "Nhạc cố điển",
+        "read" : "He loves listening to classical music",
+        "word" : "Classical"
+      }, {
+        "explain" : "Ban nhạc The Beatle đã tan rã từ lâu",
+        "jp" : "<div>探している単語は soha.com にありません</div>",
+        "mean" : "Ban nhạc",
+        "read" : "Band The Beattle has been disbanded ",
+        "word" : "Band"
+      }, {
+        "explain" : "Phát triển kinh tế bị hạn chế bởi khí hậu",
+        "jp" : " きしょう [気象] ",
+        "mean" : "Khí hậu",
+        "read" : "Economic development is constrained by climate",
+        "word" : "Climate"
+      }, {
+        "explain" : "Nếu thời tiết tốt chúng ta có thể đi dạo",
+        "jp" : " てんしょく [天色] ",
+        "mean" : "Thời tiết",
+        "read" : "If the weather's good we can go for a walk",
+        "word" : "Weather"
+      }, {
+        "explain" : "Trong rừng có một thác nước rất lớn",
+        "jp" : "<div>探している単語は soha.com にありません</div>",
+        "mean" : "Thác nước",
+        "read" : "In the forest there is a very large waterfall",
+        "word" : "Waterfall"
+      } ]
+    },
+    "G9" : {
+      "VocabularyList" : [ {
+        "explain" : "Cô ấy đã sáng tác lời cho nhiều bài hát.",
+        "jp" : "歌詞",
+        "mean" : "Lời bài hát",
+        "read" : "She composed lyrics for a many songs.",
+        "word" : "Lyrics"
+      }, {
+        "explain" : "Giai điệu này nghe bắt tai quá",
+        "jp" : "メロディー",
+        "mean" : "Giai điệu",
+        "read" : "This melody sounds so catchy",
+        "word" : "Melody"
+      }, {
+        "explain" : "Có nhiều nhạc cụ khác nhau",
+        "jp" : " がっき [楽器] ",
+        "mean" : "Nhạc cụ",
+        "read" : "There are many different instruments",
+        "word" : "Musical instrument"
+      }, {
+        "explain" : "Bản giao hưởng thứ năm của Beethoven",
+        "jp" : " こうきょうきょく [交響曲] ",
+        "mean" : "Nhạc giao hưởng",
+        "read" : "Beethoven's Fifth Symphony",
+        "word" : "Symphony"
+      }, {
+        "explain" : "Đeo tai nghe quá nhiều là không tốt",
+        "jp" : "ヘッドホン",
+        "mean" : "Tai nghe",
+        "read" : "Wearing headphones too much is not good",
+        "word" : "Headphones"
+      }, {
+        "explain" : "Anh ấy thích nghe nhạc cổ điển",
+        "jp" : "クラシック",
+        "mean" : "Nhạc cố điển",
+        "read" : "He loves listening to classical music",
+        "word" : "Classical"
+      }, {
+        "explain" : "Ban nhạc The Beatle đã tan rã từ lâu",
+        "jp" : "バンド",
+        "mean" : "Ban nhạc",
+        "read" : "Band The Beattle has been disbanded ",
+        "word" : "Band"
+      }, {
+        "explain" : "Phát triển kinh tế bị hạn chế bởi khí hậu",
+        "jp" : " きしょう [気象] ",
+        "mean" : "Khí hậu",
+        "read" : "Economic development is constrained by climate",
+        "word" : "Climate"
+      }, {
+        "explain" : "Nếu thời tiết tốt chúng ta có thể đi dạo",
+        "jp" : " てんしょく [天色] ",
+        "mean" : "Thời tiết",
+        "read" : "If the weather's good we can go for a walk",
+        "word" : "Weather"
+      }, {
+        "explain" : "Trong rừng có một thác nước rất lớn",
+        "jp" : "滝",
+        "mean" : "Thác nước",
+        "read" : "In the forest there is a very large waterfall",
+        "word" : "Waterfall"
+      } ]
+    }
+  },
+  "user" : {
+    "5tLOzH9RVgfIViTK7YMVZqnMkR83" : {
+      "achievements" : [ 4, 1, 1, 0, 3, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+      "userName" : "Long Trương Hoàng",
+      "userPicture" : "https://lh3.googleusercontent.com/a-/AOh14GjkbhpZxl7IiaKtgJYlKnZ6X0cu2nakQdwUc11W=s96-c"
+    },
+    "B90sT09AU7NzqqazTKQhBfcTnig2" : {
+      "achievements" : [ 6, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+      "userName" : "Dương Phạm Văn",
+      "userPicture" : "https://lh3.googleusercontent.com/a-/AOh14GhtFOmWWuVfrBxfSQjKQuFwOCPrAjy5o889oD8t=s96-c"
+    }
+  }
+}

@@ -35,7 +35,7 @@ export default class Practice extends Component {
   }
   loadFromDataBase = async () => {
     try {
-      let q1 = firebase.database().ref(key);
+      let q1 = firebase.database().ref(key + '/jp');
       q1.on('value', (datasnap) => {
         questionValue = datasnap.val();
         P.build();
@@ -272,7 +272,7 @@ export default class Practice extends Component {
               });
               this.reset();
             }}>
-            <Text style={styles.footerText}>SUBMIT</Text>
+            <Text style={styles.footerText}>達成</Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.next_button}

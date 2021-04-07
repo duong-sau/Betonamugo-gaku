@@ -83,14 +83,20 @@ export class Catalog extends Component {
               command: this.props.target,
             });
           }}>
-          <View style={{display: 'flex', flexDirection: 'row', marginTop: 25}}>
+          <View
+            style={{
+              display: 'flex',
+              flexDirection: 'row',
+              marginTop: 25,
+              justifyContent: 'space-between',
+            }}>
             <Icon name={this.props.icon} size={30} color={'white'} />
             <Text
               style={{
                 color: 'white',
-                fontSize: 20,
+                fontSize: 19,
                 fontWeight: 'bold',
-                marginLeft: 15,
+                marginLeft: 5,
                 marginTop: 0,
               }}>
               {this.props.name}
