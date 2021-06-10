@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
-import {Text, View, StyleSheet, TouchableOpacity, Alert} from 'react-native';
+import {Text, View, StyleSheet, TouchableOpacity} from 'react-native';
 import CheckBox from '@react-native-community/checkbox';
 import AsyncStorage from '@react-native-community/async-storage';
 import firebase from '@react-native-firebase/app';
 import '@react-native-firebase/database';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import './Controller/SetAuth';
 import 'ajv';
 import Header from '../Template/Header';
 let P;

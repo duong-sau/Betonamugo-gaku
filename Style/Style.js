@@ -1,10 +1,31 @@
 import {StyleSheet} from 'react-native';
 import React, {Component} from 'react';
-import LoginController from '../Screens/Controller/LoginController';
+import Login from '../Screens/Login';
+import '@react-native-firebase/auth';
+import {NavigationContainer} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
+import SideMenu from '../Template/SideMenu';
+const Stack = createStackNavigator();
 
 export default class Style extends Component {
   render() {
-    return <LoginController />;
+    return (
+      <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen
+            options={{headerShown: false}}
+            name={'Login'}
+            component={Login}
+          />
+          <Stack.Screen
+            options={{headerShown: false}}
+            string={'123'}
+            name={'Home'}
+            component={SideMenu}
+          />
+        </Stack.Navigator>
+      </NavigationContainer>
+    );
   }
 }
 global.style = StyleSheet.create({

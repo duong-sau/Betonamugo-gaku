@@ -15,7 +15,7 @@ import '@react-native-firebase/auth';
 import {AccessToken, LoginManager} from 'react-native-fbsdk';
 import auth from '@react-native-firebase/auth';
 import Spinner from 'react-native-loading-spinner-overlay';
-import {Get, Sync} from './Controller/Sync';
+import {Get, Sync} from '../Firebase/Sync';
 import Icon from 'react-native-vector-icons/FontAwesome';
 export default class LoginScreen extends Component {
   constructor(props) {
@@ -26,9 +26,6 @@ export default class LoginScreen extends Component {
       confirm: null,
       spinner: false,
     };
-    console.log('123');
-    console.log(this.props);
-    console.log('456');
   }
   loginFirebase = (credential, t) => {
     console.log('cre');
@@ -52,7 +49,7 @@ export default class LoginScreen extends Component {
           Get();
         }
         this.setState({spinner: false});
-        this.props.navigation.navigate('Home', {command: 1});
+        this.props.navigation.navigate('Home');
         return 1;
       })
       .catch((error) => {
@@ -138,12 +135,12 @@ export default class LoginScreen extends Component {
         <View style={{position: 'absolute', top: 0}}>
           <Image
             style={{width: 500, height: 750, position: 'absolute'}}
-            source={require('../src/background.jpg')}
+            source={require('../image/background.jpg')}
           />
           <View style={{top: 50, position: 'absolute', left: 110}}>
             <Image
               style={{width: 200, height: 200}}
-              source={require('../src/icon.png')}
+              source={require('../image/logo-app1.png')}
             />
           </View>
         </View>

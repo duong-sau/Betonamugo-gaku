@@ -10,6 +10,17 @@ import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
+import android.app.Notification;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.app.Service;
+import android.content.ClipboardManager;
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.Color;
+import android.os.IBinder;
+import android.widget.Toast;
 
 public class MainApplication extends Application implements ReactApplication {
 
@@ -43,8 +54,16 @@ public class MainApplication extends Application implements ReactApplication {
   @Override
   public void onCreate() {
     super.onCreate();
+      final ClipboardManager clipboardMgr = (ClipboardManager) this.getSystemService(Context.CLIPBOARD_SERVICE);
+      clipboardMgr.addPrimaryClipChangedListener(new ClipboardManager.OnPrimaryClipChangedListener() {
+          public void onPrimaryClipChanged() {
+              String contents = clipboardMgr.getText().toString();
+              System.out.println(contents);
+          }
+      });
     SoLoader.init(this, /* native exopackage */ false);
     initializeFlipper(this, getReactNativeHost().getReactInstanceManager());
+
   }
 
   /**

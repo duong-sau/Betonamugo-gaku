@@ -7,13 +7,7 @@ import Result from '../Result';
 import Grammar from '../Entity/Grammar';
 
 const Stack = createStackNavigator();
-let G;
 export default class GrammarController extends Component {
-  constructor(props) {
-    super(props);
-    G = this;
-  }
-
   render() {
     return (
       <Stack.Navigator>

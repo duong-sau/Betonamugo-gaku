@@ -11,7 +11,6 @@ import {ProgressBar} from '@react-native-community/progress-bar-android';
 import Header from '../../Template/Header';
 
 global.grammarState = 0;
-global.maxGrammar = [15, 15, 15, 15, 15, 15, 15, 15, 15, 5, 15];
 export default class Grammar extends Component {
   constructor(props) {
     super(props);
@@ -108,17 +107,20 @@ export default class Grammar extends Component {
                   <View style={styles.progress}>
                     <Text style={styles.content_percent}>
                       {Math.round(
-                        (global.grammarAchievements[item.ID - 1] /
-                          global.maxGrammar[item.ID - 1]) *
+                        (global.user.grammarAchievement[item.ID - 1] /
+                          global.max[item.ID - 1]) *
                           100,
                       )}
                       %
                     </Text>
                     <ProgressBar
-                      style={{width: 300, marginTop: -55, marginLeft: 0}}
+                      style={styles.progressBar}
                       styleAttr="Horizontal"
                       indeterminate={false}
-                      progress={global.grammarAchievements[item.ID - 1] / 15}
+                      animating={false}
+                      progress={
+                        global.user.grammarAchievement[item.ID - 1] / 15
+                      }
                     />
                   </View>
                 </View>
@@ -126,13 +128,23 @@ export default class Grammar extends Component {
             </View>
           )}
         />
-        <View style={{width: '100%', height: '20%'}} />
+        <View style={styles.empty} />
       </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
+  progressBar: {
+    width: '100%',
+    marginTop: -55,
+    marginLeft: 0,
+  },
+  empty: {
+    width: '100%',
+    height: '20%',
+  },
+
   style: {
     flex: 1,
     borderColor: '#e5e5e5',
@@ -151,7 +163,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   progress: {
-    width: 350,
+    width: '100%',
     marginBottom: 10,
     marginLeft: 20,
     marginTop: 10,
@@ -164,7 +176,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   circle: {
-    width: 50,
+    width: '10%',
     height: 50,
     backgroundColor: '#4267b2',
     borderRadius: 30,

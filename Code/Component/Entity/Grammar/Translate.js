@@ -1,19 +1,22 @@
 import React, {Component} from 'react';
 import {
-  Text,
-  View,
-  StyleSheet,
-  TextInput,
-  ScrollView,
-  TouchableOpacity,
   Image,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from 'react-native';
-import Header from '../../Template/Header';
+import {Container, Content} from 'native-base';
+import HtmlView from 'react-native-htmlview';
 import DOMParser from 'react-native-html-parser';
 import XMLSerializer from 'react-native-html-parser';
-import HtmlView from 'react-native-htmlview';
+import {styleTemplate} from '../../Template/StackNavigator';
+import {Header} from '../../Template/Header';
+
 let text = '';
-export default class TSL extends Component {
+export default class Translate extends Component {
   constructor(props) {
     super(props);
     global.navigation = this.props.navigation;
@@ -51,8 +54,8 @@ export default class TSL extends Component {
         res = XML.serializeToString(result['0']);
         console.log(res);
       })
-      .catch(function (err) {
-        // There was an error
+      .catch((err) => {
+        console.log(err);
         res = '<div >  探している単語は tratu.soha.vn にありません </div>';
       });
     return res;
@@ -60,42 +63,41 @@ export default class TSL extends Component {
 
   render() {
     return (
-      <View>
-        <Header
-          navigation={this.props.navigation}
-          type={'bars'}
-          title={'翻訳'}
-        />
-        <View>
-          <Text style={global.style.ContentStyle}>
-            http://tratu.soha.vn 専門用語を検索する
-          </Text>
-          <View style={{flexDirection: 'row', alignItems: 'center'}}>
-            <TextInput
-              style={styles.input}
-              onChangeText={(t) => {
-                text = t;
-              }}
-            />
-            <TouchableOpacity
-              style={global.style.ButtonBackgroundStyle}
-              onPress={() => {
-                this.handlePress(text).then((out) => {
-                  this.ok(out);
-                  console.log('out');
-                  console.log(out);
-                });
-              }}>
-              <Text style={global.style.ButtonStyle}>翻訳</Text>
-            </TouchableOpacity>
+      <Container>
+        <Header image={require('../../image/dic.jpg')} />
+        <Content>
+          <View>
+            <Text style={styleTemplate.ContentStyle}>
+              http://tratu.soha.vn 専門用語を検索する
+            </Text>
+            <View style={{flexDirection: 'row', alignItems: 'center'}}>
+              <TextInput
+                style={styles.input}
+                onChangeText={(t) => {
+                  text = t;
+                }}
+              />
+              <TouchableOpacity
+                style={styleTemplate.ButtonBackgroundStyle}
+                onPress={() => {
+                  this.handlePress(text).then((out) => {
+                    this.ok(out);
+                    console.log('out');
+                    console.log(out);
+                  });
+                }}>
+                <Text style={styleTemplate.ButtonStyle}>翻訳</Text>
+              </TouchableOpacity>
+            </View>
           </View>
-        </View>
-        <Resr ok={this.state.ok} value={this.state.value} />
-      </View>
+          <Res ok={this.state.ok} value={this.state.value} />
+        </Content>
+      </Container>
     );
   }
 }
-export class Resr extends Component {
+
+export class Res extends Component {
   render() {
     if (this.props.ok === true) {
       return (

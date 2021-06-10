@@ -1,0 +1,63 @@
+{
+  "G1":{
+    "name": "Greeting",
+    "color": "#b1b1b1",
+    "legendFontColor": "white",
+    "legendFontSize": 15
+  },
+  "G2":{
+    "name": "Travel",
+    "color": "#c1c1c1",
+    "legendFontColor": "white",
+    "legendFontSize": 15
+  },
+  "G3":{
+    "name": "Music",
+    "color": "#d1d1d1",
+    "legendFontColor": "white",
+    "legendFontSize": 15
+  },
+  "G4":{
+    "name": "Friend",
+    "color": "#e1e1e1",
+    "legendFontColor": "white",
+    "legendFontSize": 15
+  },
+  "G5":{
+    "name": "Earth",
+    "color": "#f1f1f1",
+    "legendFontColor": "white",
+    "legendFontSize": 15
+  },
+  "G6":{
+    "name": "Food",
+    "color": "#afafaf",
+    "legendFontColor": "white",
+    "legendFontSize": 15
+  },
+  "G7":{
+    "name": "Sport",
+    "color": "#bfbfbf",
+    "legendFontColor": "white",
+    "legendFontSize": 15
+  },
+  "G8":{
+    "name": "Time",
+    "color": "#cfcfcf",
+    "legendFontColor": "white",
+    "legendFontSize": 15
+  },
+  "G9":{
+    "name": "Job",
+    "color": "#dfdfdf",
+    "legendFontColor": "white",
+    "legendFontSize": 15
+  },
+  "G10":{
+    "name": "Vehicle",
+    "color": "#efefef",
+    "legendFontColor": "white",
+    "legendFontSize": 15
+  },
+
+}

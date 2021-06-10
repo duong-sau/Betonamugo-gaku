@@ -12,7 +12,7 @@ export default class VocabularyController extends Component {
   constructor(props) {
     super(props);
     V = this;
-      global.navigation = this.props.navigation;
+    global.navigation = this.props.navigation;
   }
 
   render() {
