@@ -1,5 +1,5 @@
 import React from 'react';
-import {TouchableOpacity, Image} from 'react-native';
+import {TouchableOpacity, Image, StyleSheet} from 'react-native';
 
 export class Header extends React.Component {
   constructor(props) {
@@ -8,9 +8,17 @@ export class Header extends React.Component {
   render() {
     console.log(this.props);
     return (
-      <TouchableOpacity onPress={() => this.props.navigation.navigate('Home')}>
+      <TouchableOpacity
+        onPress={() => global.navigation.navigate('Home')}
+        style={style.header}>
         <Image source={this.props.image} style={{width: 400, height: 80}} />
       </TouchableOpacity>
     );
   }
 }
+const style = StyleSheet.create({
+  header: {
+    borderWidth: 2,
+    borderColor: 'black',
+  },
+});

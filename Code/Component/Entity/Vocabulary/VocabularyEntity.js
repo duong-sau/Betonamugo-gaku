@@ -1,18 +1,5 @@
-import React, {Component, isValidElement} from 'react';
-import {
-  Container,
-  Header,
-  Left,
-  Body,
-  Right,
-  Button,
-  Title,
-  Text,
-  Footer,
-  FooterTab,
-  Badge,
-  Content,
-} from 'native-base';
+import React, {Component} from 'react';
+import {Container, Button, Text, Footer, FooterTab, Content} from 'native-base';
 import firebase from '@react-native-firebase/app';
 import {View} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
@@ -20,6 +7,7 @@ import Tts from 'react-native-tts';
 import Swiper from 'react-native-swiper';
 import Logout from '../../Template/Logout';
 import {Sync} from '../../Firebase/Sync';
+import {Header} from '../../Template/Header';
 let VocabularyList = [];
 let key;
 let V;
@@ -60,21 +48,7 @@ export default class VocabularyEntity extends Component {
   render() {
     return (
       <Container>
-        <Header>
-          <Left>
-            <Icon
-              name="chevron-left"
-              color="white"
-              size={20}
-              style={{marginLeft: 10}}
-              onPress={() => this.props.navigation.navigate('Vocabulary')}
-            />
-          </Left>
-          <Body>
-            <Title>Vocabulary</Title>
-          </Body>
-          <Right />
-        </Header>
+        <Header image={require('../../image/vocabulary.jpeg')} />
         <Content>
           <View style={{display: 'flex', flexDirection: 'row', height: 500}}>
             <Swiper>
@@ -89,43 +63,6 @@ export default class VocabularyEntity extends Component {
             </Swiper>
           </View>
         </Content>
-        <Footer>
-          <FooterTab>
-            <Button
-              badge
-              vertical
-              onPress={() => this.props.navigation.navigate('Home')}>
-              <Icon name="home" size={20} color="white" />
-              <Text>Home</Text>
-            </Button>
-            <Button
-              vertical
-              onPress={() => this.props.navigation.navigate('Grammar')}>
-              <Icon name="address-book" size={20} color="white" />
-              <Text>Grammar</Text>
-            </Button>
-            <Button
-              vertical
-              onPress={() => {
-                this.props.navigation.navigate('Setting');
-              }}>
-              <Icon name="cogs" size={20} color="white" />
-              <Text>Setting</Text>
-            </Button>
-            <Button badge vertical>
-              <Logout
-                nameIcon="power-off"
-                sizeIcon={20}
-                colorIcon="white"
-                text="Log out"
-                displayImage="none"
-                displayText="none"
-                width={60}
-                height={50}
-              />
-            </Button>
-          </FooterTab>
-        </Footer>
       </Container>
     );
   }

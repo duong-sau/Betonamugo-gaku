@@ -135,7 +135,7 @@ export default class LoginScreen extends Component {
         <View style={{position: 'absolute', top: 0}}>
           <Image
             style={{width: 500, height: 750, position: 'absolute'}}
-            source={require('../image/background.jpg')}
+            source={require('./VNHL.jpg')}
           />
           <View style={{top: 50, position: 'absolute', left: 110}}>
             <Image

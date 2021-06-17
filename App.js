@@ -10,7 +10,6 @@ import React, {Component} from 'react';
 import {store} from './Code/Redux/Store/index';
 import {AppState, Platform, StyleSheet} from 'react-native';
 import VIForegroundService from '@voximplant/react-native-foreground-service';
-import ClipboardListener from 'react-native-clipboard-listener';
 import KeyEvent from 'react-native-keyevent';
 import {Provider} from 'react-redux';
 import Containers from './Code/Component/Template/StackNavigator';
@@ -69,12 +68,7 @@ export default class App extends Component<Props> {
       notificationConfig.channelId = 'ForegroundServiceChannel';
     }
     await VIForegroundService.startService(notificationConfig);
-    ClipboardListener.setListener((event) => {
-      console.log('get');
-      console.log(event);
-    });
   }
-
   async stopService() {
     await VIForegroundService.stopService();
   }

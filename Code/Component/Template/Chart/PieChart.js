@@ -26,7 +26,7 @@ export default class VocabularyChart extends React.PureComponent {
       backgroundGradientFromOpacity: 0,
       backgroundGradientTo: 'black',
       backgroundGradientToOpacity: 1,
-      color: (opacity = 1) => `rgba(26, 255, 146, ${opacity})`,
+      color: (opacity = 1) => `rgba(0,0,0, ${opacity})`,
       strokeWidth: 1,
       barPercentage: 0.5,
       useShadowColorFromDataset: false,

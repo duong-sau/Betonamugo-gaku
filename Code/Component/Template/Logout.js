@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 import hideAlert from '../../Redux/Action/HideAlert';
 import showAlert from '../../Redux/Action/ShowAlert';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import {styles} from '../Template/Style';
+import {styles} from './Style';
 class Logout extends Component {
   constructor(props) {
     super(props);

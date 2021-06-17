@@ -1,106 +1,80 @@
 import React, {Component} from 'react';
-import {Container, Header, Left, Body, Title, Text, Content} from 'native-base';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import {Text} from 'native-base';
+import {TouchableOpacity, Image, StyleSheet, View} from 'react-native';
+import {BackgroundImage} from 'react-native-elements/dist/config';
+class SelectItem extends Component {
+  render() {
+    return (
+      <TouchableOpacity
+        style={style.selectItem}
+        onPress={() => global.navigation.navigate(this.props.destination)}>
+        <Image style={style.image} source={this.props.image} />
+        <Text style={style.selectText}>{this.props.title}</Text>
+      </TouchableOpacity>
+    );
+  }
+}
 
-import {View, TouchableOpacity, Image, StyleSheet} from 'react-native';
 export default class Select extends Component {
   constructor(props) {
     super(props);
+    global.navigation = this.props.navigation;
   }
   render() {
     console.log(this.props);
     return (
-      <Container>
-        <Header style={{backgroundColor: '#B299FF'}}>
-          <Left style={{marginLeft: 5}}>
-            <Icon name="chevron-left" color="white" size={20} />
-          </Left>
-          <Body style={{display: 'flex', flexDirection: 'row'}}>
-            <Title style={{marginLeft: 10}}>English Breaking</Title>
-            <Icon
-              name="cogs"
-              size={25}
-              color="white"
-              style={{marginLeft: 90}}
-              onPress={() => this.props.navigation.navigate('Setting')}
-            />
-          </Body>
-        </Header>
-        <Content>
-          <View style={{position: 'relative'}}>
-            <Image
-              style={{width: 420, height: 750}}
-              source={require('../image/background.jpg')}
-            />
-            <View style={{position: 'absolute', top: 10, left: 0}}>
-              <TouchableOpacity
-                style={style.selectItem}
-                onPress={() => this.props.navigation.navigate('Translate')}>
-                <Image
-                  style={style.image}
-                  source={require('../image/dic.jpg')}
-                />
-                <Text style={style.selectText}>Dịch</Text>
-              </TouchableOpacity>
-              <TouchableOpacity
-                style={style.selectItem}
-                onPress={() => this.props.navigation.navigate('Vocabulary')}>
-                <Image
-                  style={style.image}
-                  source={require('../image/vocabulary.jpeg')}
-                />
-                <Text style={style.selectText}>Từ mới</Text>
-              </TouchableOpacity>
-              <TouchableOpacity
-                style={style.selectItem}
-                onPress={() => {
-                  this.props.navigation.navigate('About');
-                }}>
-                <Image
-                  style={style.image}
-                  source={require('../image/privacy.jpg')}
-                />
-                <Text style={style.selectText}>về chúng tôi</Text>
-              </TouchableOpacity>
-              <TouchableOpacity
-                style={style.selectItem}
-                onPress={() => this.props.navigation.navigate('Login')}>
-                <Image
-                  style={style.image}
-                  source={require('../image/log.jpg')}
-                />
-                <Text style={style.selectText}>Đăng xuất</Text>
-              </TouchableOpacity>
-            </View>
-          </View>
-        </Content>
-      </Container>
+      <View style={{backgroundColor: '#e5e5e5'}}>
+        <BackgroundImage
+          source={require('../Screens/Header.png')}
+          style={{width: '100%'}}>
+          <Text style={style.selectText}>ベトナム語をベトナム語で学ぶ</Text>
+        </BackgroundImage>
+        <View style={{height: 600}}>
+          <SelectItem
+            image={require('../image/dictionary.png')}
+            title={'翻訳する'}
+            destination={'Translate'}
+          />
+          <SelectItem
+            image={require('../image/vocabulary.jpeg')}
+            title={'単語'}
+            destination={'Vocabulary'}
+          />
+          <SelectItem
+            image={require('../image/TK.png')}
+            title={'統計'}
+            destination={'Result'}
+          />
+          <SelectItem
+            image={require('../image/privacy.jpg')}
+            title={'利用規約'}
+            destination={'About'}
+          />
+        </View>
+      </View>
     );
   }
 }
 const style = StyleSheet.create({
-  Container: {
-    padding: '10%',
-  },
-
   selectItem: {
-    backgroundColor: 'white',
-    height: '100%',
-    width: 480,
-    borderRadius: 0,
-    padding: '1%',
-    borderColor: 'red',
-    borderWidth: 1,
+    flex: 1,
+    margin: '1%',
+    borderWidth: 2,
+    borderColor: 'black',
   },
   selectText: {
-    fontSize: 15,
+    width: 300,
+    alignSelf: 'center',
+    fontSize: 20,
     color: 'black',
     textAlign: 'center',
     fontWeight: 'bold',
-    marginTop: 0,
+    marginBottom: '10%',
   },
   image: {
-    width: '95%',
-    height: '200%',
+    marginTop: '3%',
+    width: '98%',
+    height: '72%',
+    marginLeft: '1%',
   },
 });
