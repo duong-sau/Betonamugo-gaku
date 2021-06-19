@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, View, Text} from 'react-native';
+import {StyleSheet, View, Text, Image} from 'react-native';
 import VocabularyChart from '../../Template/Chart/PieChart';
 import {Container, Content} from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
@@ -25,6 +25,7 @@ export default class Result extends React.PureComponent {
                 alignItems: 'center',
                 marginTop: 100,
               }}>
+              <Text>{global.user.userName}</Text>
               <LinearGradient
                 colors={['#f5f5f5', '#e5e5e5']}
                 style={styles.frame}>
